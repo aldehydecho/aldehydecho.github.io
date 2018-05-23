@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on QINGYANG TAN</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on QINGYANG TAN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Qingyang Tan</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mesh-based Autoencoders for Localized Deformation Component Analysis</title>
+      <link>/publication/sparse/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/sparse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variational Autoencoders for Deforming 3D Mesh Models</title>
+      <link>/publication/vae/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/vae/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
