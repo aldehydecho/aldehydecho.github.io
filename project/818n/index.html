@@ -136,6 +136,47 @@
 
 <p>In sum, our main goal of this research project is to build a multi-robot planner, combining local and global observation and computation power, using deep reinforcement learning.</p>
 
+<h1 id="2-motivation">2. Motivation</h1>
+
+<p>While humans and animals most of time navigate their lives based on local information, which is obtained through their natural perceptions, the underlying planning process may not yield the optimal result. For example, traffic throughput rarely reaches its theoretical maximum because people tend to change their speed based on local observations and thus causing traffic waves that lead to traffic congestion, as shown in the following video.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/Suugn-p5C1M" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p>Therefore, we want to investigate, in a multi-robot system, how the overall performance of navigation measured in time could benefit from the extra input of global information.</p>
+
+<h1 id="3-related-work">3. Related work</h1>
+
+<p>Narain et al. present a hybrid representation for large dense crowds with discrete agents using a dual representation both as discrete agents and as a single continuous system. A scalable crowd simulation approach is used, making it possible to simulate very large, dense crowds composed of up to a hundred thousand agents at near-interactive rates on desktop computers.</p>
+
+<p>Fan et al. develop a fully decentralized multi-robot collision avoidance framework, where each robot makes navigation decisions independently without any communication with others. A sensor-level collision avoidance policy that maps raw sensor measurements to an agent’s steering commands in terms of the movement velocity is learned via reinforcement learning. The learned policy is combined with traditional control approaches to further improve policy’s robustness and effectiveness.</p>
+
+<p>Kim et al. propose a new training method, named message-dropout, yielding efficient learning for multi-agent deep reinforcement learning with information exchange with large input dimensions.</p>
+
+<h1 id="4-plan">4. Plan</h1>
+
+<h2 id="timeline">Timeline:</h2>
+
+<ol>
+<li>Early March: Review of more previous work related to this project</li>
+<li>Mid March - Late March:
+Reproduce some related work, like [1];<br />
+Create simulator for this project</li>
+<li>Early Apri - Mid April: Develop our system; train on simulator</li>
+<li>Late April - Early May: Test our final system; write report</li>
+</ol>
+
+<h1 id="references">References</h1>
+
+<p>[1] Tingxiang Fan, Pinxin Long, Wenxi Liu, Jia Pan. Fully Distributed Multi-Robot Collision Avoidance via Deep Reinforcement Learning for Safe and Efficient Navigation in Complex Scenarios. arXiv, 2018<br />
+[2] Pinxin Long, Tingxiang Fan, Xinyi Liao, Wenxi Liu, Hao Zhang, Jia Pan. Towards Optimally Decentralized Multi-Robot Collision Avoidance via Deep Reinforcement Learning. International Conference on Robotics and Automation (ICRA), 2018.<br />
+[3] Pinxin Long, Wenxi Liu, Jia Pan. Deep-Learned Collision Avoidance Policy for Distributed Multi-Agent Navigation. IEEE Robotics and Automation Letters, 2(2), 656-663, 2017.<br />
+[4] Rahul Narain, Abhinav Golas, Sean Curtis, Ming C. Lin. Aggregate Dynamics for Dense Crowd Simulation. SIGGRAPH Asia 2009.<br />
+[5] Rios-Torres, Jackeline, and Andreas A. Malikopoulos. &ldquo;A survey on the coordination of connected and automated vehicles at intersections and merging at highway on-ramps.&rdquo; IEEE Transactions on Intelligent Transportation Systems 18.5 (2017): 1066-1077.</p>
+
     </div>
 
   </div>

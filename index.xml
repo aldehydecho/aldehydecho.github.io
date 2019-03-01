@@ -31,6 +31,47 @@
 &lt;p&gt;We cannot deny that fully-centralized method has some drawbacks compared to fully distributed methods. For example, fully-centralized method computation rely on one central server. The central server may cannot process huge-amount of information, or the system may break down once the central server stopped. Thus, in this project, we want to divide the planner into two phases, i.e. global decision period with global information on central computer and local decision period with each agent’s own observation on its processor. Previous work including [4] shows that this idea could work. We want to combine deep reinforcement learning in this project.&lt;/p&gt;
 
 &lt;p&gt;In sum, our main goal of this research project is to build a multi-robot planner, combining local and global observation and computation power, using deep reinforcement learning.&lt;/p&gt;
+
+&lt;h1 id=&#34;2-motivation&#34;&gt;2. Motivation&lt;/h1&gt;
+
+&lt;p&gt;While humans and animals most of time navigate their lives based on local information, which is obtained through their natural perceptions, the underlying planning process may not yield the optimal result. For example, traffic throughput rarely reaches its theoretical maximum because people tend to change their speed based on local observations and thus causing traffic waves that lead to traffic congestion, as shown in the following video.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Suugn-p5C1M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Therefore, we want to investigate, in a multi-robot system, how the overall performance of navigation measured in time could benefit from the extra input of global information.&lt;/p&gt;
+
+&lt;h1 id=&#34;3-related-work&#34;&gt;3. Related work&lt;/h1&gt;
+
+&lt;p&gt;Narain et al. present a hybrid representation for large dense crowds with discrete agents using a dual representation both as discrete agents and as a single continuous system. A scalable crowd simulation approach is used, making it possible to simulate very large, dense crowds composed of up to a hundred thousand agents at near-interactive rates on desktop computers.&lt;/p&gt;
+
+&lt;p&gt;Fan et al. develop a fully decentralized multi-robot collision avoidance framework, where each robot makes navigation decisions independently without any communication with others. A sensor-level collision avoidance policy that maps raw sensor measurements to an agent’s steering commands in terms of the movement velocity is learned via reinforcement learning. The learned policy is combined with traditional control approaches to further improve policy’s robustness and effectiveness.&lt;/p&gt;
+
+&lt;p&gt;Kim et al. propose a new training method, named message-dropout, yielding efficient learning for multi-agent deep reinforcement learning with information exchange with large input dimensions.&lt;/p&gt;
+
+&lt;h1 id=&#34;4-plan&#34;&gt;4. Plan&lt;/h1&gt;
+
+&lt;h2 id=&#34;timeline&#34;&gt;Timeline:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Early March: Review of more previous work related to this project&lt;/li&gt;
+&lt;li&gt;Mid March - Late March:
+Reproduce some related work, like [1];&lt;br /&gt;
+Create simulator for this project&lt;/li&gt;
+&lt;li&gt;Early Apri - Mid April: Develop our system; train on simulator&lt;/li&gt;
+&lt;li&gt;Late April - Early May: Test our final system; write report&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+
+&lt;p&gt;[1] Tingxiang Fan, Pinxin Long, Wenxi Liu, Jia Pan. Fully Distributed Multi-Robot Collision Avoidance via Deep Reinforcement Learning for Safe and Efficient Navigation in Complex Scenarios. arXiv, 2018&lt;br /&gt;
+[2] Pinxin Long, Tingxiang Fan, Xinyi Liao, Wenxi Liu, Hao Zhang, Jia Pan. Towards Optimally Decentralized Multi-Robot Collision Avoidance via Deep Reinforcement Learning. International Conference on Robotics and Automation (ICRA), 2018.&lt;br /&gt;
+[3] Pinxin Long, Wenxi Liu, Jia Pan. Deep-Learned Collision Avoidance Policy for Distributed Multi-Agent Navigation. IEEE Robotics and Automation Letters, 2(2), 656-663, 2017.&lt;br /&gt;
+[4] Rahul Narain, Abhinav Golas, Sean Curtis, Ming C. Lin. Aggregate Dynamics for Dense Crowd Simulation. SIGGRAPH Asia 2009.&lt;br /&gt;
+[5] Rios-Torres, Jackeline, and Andreas A. Malikopoulos. &amp;ldquo;A survey on the coordination of connected and automated vehicles at intersections and merging at highway on-ramps.&amp;rdquo; IEEE Transactions on Intelligent Transportation Systems 18.5 (2017): 1066-1077.&lt;/p&gt;
 </description>
     </item>
     
