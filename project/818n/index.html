@@ -74,46 +74,6 @@
       <span class="pub-authors" itemprop="author">&nbsp;</span>
       <span class="pull-right">
         
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fproject%2f818n%2f"
-         target="_blank">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Deep%20Combined%20Reinforcement%20Learning%20Planner%20for%20Multi-Robot%20System&amp;url=%2fproject%2f818n%2f"
-         target="_blank">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fproject%2f818n%2f&amp;title=Deep%20Combined%20Reinforcement%20Learning%20Planner%20for%20Multi-Robot%20System"
-         target="_blank">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fproject%2f818n%2f&amp;title=Deep%20Combined%20Reinforcement%20Learning%20Planner%20for%20Multi-Robot%20System"
-         target="_blank">
-        <i class="fa fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Deep%20Combined%20Reinforcement%20Learning%20Planner%20for%20Multi-Robot%20System&amp;body=%2fproject%2f818n%2f">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
-</div>
-
-
       </span>
     </div>
 
@@ -122,7 +82,7 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<p><strong>Author</strong>:<br />
+<p><strong>Authors</strong><br />
 Qingyang Tan (<a href="mailto:qytan@cs.umd.edu" target="_blank">qytan@cs.umd.edu</a>)<br />
 Dunbang He (<a href="mailto:dhe@terpmail.umd.edu" target="_blank">dhe@terpmail.umd.edu</a>)<br />
 Shuangqi Luo (<a href="mailto:sklaw@umd.edu" target="_blank">sklaw@umd.edu</a>)</p>
@@ -155,11 +115,11 @@ Shuangqi Luo (<a href="mailto:sklaw@umd.edu" target="_blank">sklaw@umd.edu</a>)<
 
 <h1 id="3-related-work">3. Related work</h1>
 
-<p>Narain et al. present a hybrid representation for large dense crowds with discrete agents using a dual representation both as discrete agents and as a single continuous system. A scalable crowd simulation approach is used, making it possible to simulate very large, dense crowds composed of up to a hundred thousand agents at near-interactive rates on desktop computers.</p>
+<p>Narain et al. [4] present a hybrid representation for large dense crowds with discrete agents using a dual representation both as discrete agents and as a single continuous system. The scalable crowd simulation approach makes it possible to simulate very large, dense crowds at near-interactive rates on desktop.</p>
 
-<p>Fan et al. develop a fully decentralized multi-robot collision avoidance framework, where each robot makes navigation decisions independently without any communication with others. A sensor-level collision avoidance policy that maps raw sensor measurements to an agent’s steering commands in terms of the movement velocity is learned via reinforcement learning. The learned policy is combined with traditional control approaches to further improve policy’s robustness and effectiveness.</p>
+<p>Fan et al. [1] develop a fully decentralized multi-robot collision avoidance framework, where each robot makes navigation decisions independently without any communication with others. A sensor-level collision avoidance policy that maps raw sensor measurements to an agent’s steering commands in terms of the movement velocity is learned via reinforcement learning. The learned policy is combined with traditional control approaches to further improve policy’s robustness and effectiveness.</p>
 
-<p>Kim et al. propose a new training method, named message-dropout, yielding efficient learning for multi-agent deep reinforcement learning with information exchange with large input dimensions.</p>
+<p>Khan et al. [6] cast the multi-agent reinforcement learning problem as a distributed optimization problem, assuming that for multi-agent settings, policies of individual agents in a given population live close to each other in parameter space and can be approximated by a single policy. Yoon et al. [7] extend the framework of centralized training with decentralized execution to include additional optimization of the inter-agent communication. Sadhu et al. [8] propose consensus-based multi-agent Q-learning to address the bottleneck of the optimal equilibrium selection among multiple types. Kim et al. [9] propose a new training method named message-dropout, yielding efficient learning for multi-agent deep reinforcement learning with information exchange with large input dimensions. Mirowski et al. [10] presents an end-to-end deep reinforcement learning approach that can be applied to real world visual navigation through city-scale environments.</p>
 
 <h1 id="4-plan">4. Plan</h1>
 
@@ -168,7 +128,7 @@ Shuangqi Luo (<a href="mailto:sklaw@umd.edu" target="_blank">sklaw@umd.edu</a>)<
 <ol>
 <li>Early March: Review of more previous work related to this project</li>
 <li>Mid March - Late March:
-Reproduce some related work, like [1];<br />
+Reproduce some related work, e.g. [1];<br />
 Create simulator for this project</li>
 <li>Early Apri - Mid April: Develop our system; train on simulator</li>
 <li>Late April - Early May: Test our final system; write report</li>
@@ -179,8 +139,13 @@ Create simulator for this project</li>
 <p>[1] Tingxiang Fan, Pinxin Long, Wenxi Liu, Jia Pan. Fully Distributed Multi-Robot Collision Avoidance via Deep Reinforcement Learning for Safe and Efficient Navigation in Complex Scenarios. arXiv, 2018<br />
 [2] Pinxin Long, Tingxiang Fan, Xinyi Liao, Wenxi Liu, Hao Zhang, Jia Pan. Towards Optimally Decentralized Multi-Robot Collision Avoidance via Deep Reinforcement Learning. International Conference on Robotics and Automation (ICRA), 2018.<br />
 [3] Pinxin Long, Wenxi Liu, Jia Pan. Deep-Learned Collision Avoidance Policy for Distributed Multi-Agent Navigation. IEEE Robotics and Automation Letters, 2(2), 656-663, 2017.<br />
-[4] Rahul Narain, Abhinav Golas, Sean Curtis, Ming C. Lin. Aggregate Dynamics for Dense Crowd Simulation. SIGGRAPH Asia 2009.<br />
-[5] Rios-Torres, Jackeline, and Andreas A. Malikopoulos. &ldquo;A survey on the coordination of connected and automated vehicles at intersections and merging at highway on-ramps.&rdquo; IEEE Transactions on Intelligent Transportation Systems 18.5 (2017): 1066-1077.</p>
+[4] Rahul Narain, Abhinav Golas, Sean Curtis, Ming C. Lin. Aggregate Dynamics for Dense Crowd Simulation. SIGGRAPH Asia 2009<br />
+[5] Rios-Torres, Jackeline, and Andreas A. Malikopoulos. &ldquo;A survey on the coordination of connected and automated vehicles at intersections and merging at highway on-ramps.&rdquo; IEEE Transactions on Intelligent Transportation Systems 18.5 (2017): 1066-1077.<br />
+[6] Khan, Arbaaz, et al. &ldquo;Scalable Centralized Deep Multi-Agent Reinforcement Learning via Policy Gradients.&rdquo; arXiv preprint arXiv:1805.08776 (2018).<br />
+[7] Yoon, Hyung-Jin, et al. &ldquo;Learning to Communicate: A Machine Learning Framework for Heterogeneous Multi-Agent Robotic Systems.&rdquo; AIAA Scitech 2019 Forum. 2019.<br />
+[8] Sadhu, Arup Kumar, et al. &ldquo;Multi-robot cooperative planning by consensus Q-learning.&rdquo; 2017 International Joint Conference on Neural Networks (IJCNN). IEEE, 2017.<br />
+[9] Kim, Woojun, Myungsik Cho, and Youngchul Sung. &ldquo;Message-Dropout: An Efficient Training Method for Multi-Agent Deep Reinforcement Learning.&rdquo; arXiv preprint arXiv:1902.06527 (2019).<br />
+[10] Mirowski, Piotr, et al. &ldquo;Learning to navigate in cities without a map.&rdquo; Advances in Neural Information Processing Systems. 2018.</p>
 
     </div>
 
