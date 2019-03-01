@@ -11,6 +11,30 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Deep Combined Reinforcement Learning Planner for Multi-Robot System</title>
+      <link>/project/818n/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/818n/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;/img/robotics_planning.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;1-research-goal&#34;&gt;1. Research Goal&lt;/h1&gt;
+
+&lt;p&gt;In this project, we want to build a planner for multi-robot system, using local and global information and dividing policy decision process into two phases. We want to leverage the power of reinforcement learning, and train the policy in a simulation scenario, instead of using real-word training data.&lt;/p&gt;
+
+&lt;p&gt;There exist successful decentralized methods [1, 2, 3] based on reinforcement learning to navigate multi-robot system to avoid collision. Decentralized method does not require frequent communication and only uses local observation; However, with improvement of communication and positioning technology, e.g. 5G network and wifi-based indoor positioning system, we can more easily acquire global system status. Meanwhile, centralized system can guarantee safety, completeness, and approximate optimality solution [1]. Thus, in this project, we want to build a system using global information and computation in a simulated environment. To reduce complexity, we also assume the system has no communication latency and has a clear global sensor measurement.&lt;/p&gt;
+
+&lt;p&gt;We plan to formulate global information as a map with each agent’s location. This formulation can fit most of large systems no matter how many agents the system have. Also, we can use sophisticated convolutional neural network (CNN) to process this image-like input, to better understand the running environment.&lt;/p&gt;
+
+&lt;p&gt;We cannot deny that fully-centralized method has some drawbacks compared to fully distributed methods. For example, fully-centralized method computation rely on one central server. The central server may cannot process huge-amount of information, or the system may break down once the central server stopped. Thus, in this project, we want to divide the planner into two phases, i.e. global decision period with global information on central computer and local decision period with each agent’s own observation on its processor. Previous work including [4] shows that this idea could work. We want to combine deep reinforcement learning in this project.&lt;/p&gt;
+
+&lt;p&gt;In sum, our main goal of this research project is to build a multi-robot planner, combining local and global observation and computation power, using deep reinforcement learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Variational Autoencoders for Deforming 3D Mesh Models</title>
       <link>/publication/vae/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>

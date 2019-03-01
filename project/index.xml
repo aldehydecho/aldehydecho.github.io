@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on QINGYANG TAN</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on QINGYANG TAN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Qingyang Tan</copyright>
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deep Combined Reinforcement Learning Planner for Multi-Robot System</title>
+      <link>/project/818n/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/818n/</guid>
+      <description>1. Research Goal In this project, we want to build a planner for multi-robot system, using local and global information and dividing policy decision process into two phases. We want to leverage the power of reinforcement learning, and train the policy in a simulation scenario, instead of using real-word training data.
+There exist successful decentralized methods [1, 2, 3] based on reinforcement learning to navigate multi-robot system to avoid collision.</description>
+    </item>
+    
+  </channel>
+</rss>
