@@ -18,7 +18,11 @@
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/818n/</guid>
-      <description>1. Research Goal In this project, we want to build a planner for multi-robot system, using local and global information and dividing policy decision process into two phases. We want to leverage the power of reinforcement learning, and train the policy in a simulation scenario, instead of using real-word training data.
+      <description>Author:
+Qingyang Tan (qytan@cs.umd.edu)
+Dunbang He (dhe@terpmail.umd.edu)
+Shuangqi Luo (sklaw@umd.edu)
+1. Research Goal In this project, we want to build a planner for multi-robot system, using local and global information and dividing policy decision process into two phases. We want to leverage the power of reinforcement learning, and train the policy in a simulation scenario, instead of using real-word training data.
 There exist successful decentralized methods [1, 2, 3] based on reinforcement learning to navigate multi-robot system to avoid collision.</description>
     </item>
     
