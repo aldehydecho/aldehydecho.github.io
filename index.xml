@@ -35,7 +35,14 @@ Shuangqi Luo (&lt;a href=&#34;mailto:sklaw@umd.edu&#34; target=&#34;_blank&#34;&
 
 &lt;p&gt;We cannot deny that fully-centralized method has some drawbacks compared to fully distributed methods. For example, fully-centralized method computation rely on one central server. The central server may cannot process huge-amount of information, or the system may break down once the central server stopped. Thus, in this project, we want to divide the planner into two phases, i.e. global decision period with global information on central computer and local decision period with each agent’s own observation on its processor. Previous work including [4] shows that this idea could work. We want to combine deep reinforcement learning in this project.&lt;/p&gt;
 
-&lt;p&gt;In sum, our main goal of this research project is to build a multi-robot planner, combining local and global observation and computation power, using deep reinforcement learning.&lt;/p&gt;
+&lt;p&gt;&lt;font size=4&gt;&lt;strong&gt;&lt;em&gt;In sum, our main goal of this research project is to build a multi-robot planner, combining local and global observation, deviding decision into two phases, and using deep reinforcement learning. We want to build our system on top of previous work [1], and demonstrate its planning result for multi-robot system on different scenarios.&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=4&gt;&lt;strong&gt;&lt;em&gt;At the end of the semester, we want to compare with state-of-art methods in two possible directions:&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;font size=4&gt;&lt;strong&gt;&lt;em&gt;Handling more complicated system with more robots involved;&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;&lt;font size=4&gt;&lt;strong&gt;&lt;em&gt;Generating a faster global plan for each robot reaching its own goal.&lt;/em&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h1 id=&#34;2-motivation&#34;&gt;2. Motivation&lt;/h1&gt;
 
