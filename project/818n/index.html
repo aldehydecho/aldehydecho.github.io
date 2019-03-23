@@ -99,7 +99,7 @@ Shuangqi Luo (<a href="mailto:sklaw@umd.edu" target="_blank">sklaw@umd.edu</a>)<
 
 <p>We cannot deny that fully-centralized method has some drawbacks compared to fully distributed methods. For example, fully-centralized method computation rely on one central server. The central server may cannot process huge-amount of information, or the system may break down once the central server stopped. Thus, in this project, we want to divide the planner into two phases, i.e. global decision period with global information on central computer and local decision period with each agent’s own observation on its processor. Previous work including [4] shows that this idea could work. We want to combine deep reinforcement learning in this project.</p>
 
-<p><font size=4><strong><em>In sum, our main goal of this research project is to build a multi-robot planner, combining local and global observation, deviding decision into two phases, and using deep reinforcement learning. We want to build our system on top of previous work [1], and demonstrate its planning result for multi-robot system on different scenarios.</em></strong></font></p>
+<p><font size=4><strong><em>In sum, our main goal of this research project is to build a multi-robot planner, combining local and global observation, dividing decision into two phases, and using deep reinforcement learning. We want to build our system on top of previous work [1], and demonstrate its planning result for multi-robot system on different scenarios.</em></strong></font></p>
 
 <p><font size=4><strong><em>At the end of the semester, we want to compare with state-of-art methods in two possible directions:</em></strong></font></p>
 
@@ -107,6 +107,12 @@ Shuangqi Luo (<a href="mailto:sklaw@umd.edu" target="_blank">sklaw@umd.edu</a>)<
 <li><font size=4><strong><em>Handling more complicated system with more robots involved;</em></strong></font></li>
 <li><font size=4><strong><em>Generating a faster global plan for each robot reaching its own goal.</em></strong></font></li>
 </ol>
+
+<p><strong><em>Specifically, we want to compare with state-of-art methods in the following realistic application:</em></strong></p>
+
+<p><strong><em>In a typical warehouse that stores products for online shopping, upon receiving an order, robots need to transport the shelfs containing items of the order to a randomly generated pick up point where human will pick up the specific items related to the order, then transport the shelfs back to their  parking points. This navigation can be abstracted as a round trip from a random green point to a random red point and then back to the original green point in the following picture. We want to compare our algorithm with state of the art algorithms using this metric : orders achieved per second given a certain amount of robots. We will plot a graph where the x axis is the number of robot and the y axis is orders/second, and the lines shows comparisons of different algorithms.</em></strong></p>
+
+<p><img src="/img/warehouse.png" alt="" /></p>
 
 <h1 id="2-motivation">2. Motivation</h1>
 
