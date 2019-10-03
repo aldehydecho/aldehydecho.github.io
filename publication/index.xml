@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>DeepMNavigate: Deep Reinforced Multi-Robot Navigation Unifying Local &amp; Global Collision</title>
+      <link>/publication/global_planning/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/global_planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>
+      <link>/publication/cloth_embedding/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/cloth_embedding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Variational Autoencoders for Deforming 3D Mesh Models</title>
       <link>/publication/vae/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>

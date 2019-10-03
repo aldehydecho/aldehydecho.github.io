@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>DeepMNavigate: Deep Reinforced Multi-Robot Navigation Unifying Local &amp; Global Collision</title>
+      <link>/publication/global_planning/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/global_planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>
+      <link>/publication/cloth_embedding/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/cloth_embedding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deep Combined Reinforcement Learning Planner for Multi-Robot System</title>
       <link>/project/818n/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
