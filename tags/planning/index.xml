@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Planning | QINGYANG TAN</title>
-    <link>/tags/planning/</link>
-      <atom:link href="/tags/planning/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://qytan.com/tags/planning/</link>
+      <atom:link href="http://qytan.com/tags/planning/index.xml" rel="self" type="application/rss+xml" />
     <description>Planning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>http://qytan.com/img/icon-192.png</url>
       <title>Planning</title>
-      <link>/tags/planning/</link>
+      <link>http://qytan.com/tags/planning/</link>
     </image>
     
     <item>
       <title>DeepMNavigate: Deep Reinforced Multi-Robot Navigation Unifying Local &amp; Global Collision</title>
-      <link>/publication/global_planning/</link>
+      <link>http://qytan.com/publication/global_planning/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/global_planning/</guid>
+      <guid>http://qytan.com/publication/global_planning/</guid>
       <description></description>
     </item>
     

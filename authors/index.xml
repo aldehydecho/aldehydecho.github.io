@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | QINGYANG TAN</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://qytan.com/authors/</link>
+      <atom:link href="http://qytan.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>http://qytan.com/img/icon-192.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>http://qytan.com/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/authors/admin/</link>
+      <link>http://qytan.com/authors/admin/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
+      <guid>http://qytan.com/authors/admin/</guid>
       <description>&lt;p&gt;I am Qingyang Tan. I am a Ph.D. student at &lt;a href=&#34;http://www.cs.umd.edu/&#34; target=&#34;_blank&#34;&gt;University of Maryland, College Park&lt;/a&gt;. I received the B.Eng. degree in Computer Science and Technology from &lt;a href=&#34;http://english.ucas.ac.cn/&#34; target=&#34;_blank&#34;&gt;University of Chinese Academy of Sciences&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Currently, I am a research assistant at &lt;a href=&#34;http://www.umiacs.umd.edu/&#34; target=&#34;_blank&#34;&gt;UMIACS&lt;/a&gt; advised by &lt;a href=&#34;https://www.cs.umd.edu/people/dmanocha&#34; target=&#34;_blank&#34;&gt;Prof. Dinesh Manocha&lt;/a&gt;.&lt;/p&gt;
@@ -29,81 +29,81 @@
     
     <item>
       <title>Dinesh Manocha</title>
-      <link>/authors/dinesh-manocha/</link>
+      <link>http://qytan.com/authors/dinesh-manocha/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/dinesh-manocha/</guid>
+      <guid>http://qytan.com/authors/dinesh-manocha/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jia Pan</title>
-      <link>/authors/jia-pan/</link>
+      <link>http://qytan.com/authors/jia-pan/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/jia-pan/</guid>
+      <guid>http://qytan.com/authors/jia-pan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tingxiang Fan</title>
-      <link>/authors/tingxiang-fan/</link>
+      <link>http://qytan.com/authors/tingxiang-fan/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/tingxiang-fan/</guid>
+      <guid>http://qytan.com/authors/tingxiang-fan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lin Gao</title>
-      <link>/authors/lin-gao/</link>
+      <link>http://qytan.com/authors/lin-gao/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/lin-gao/</guid>
+      <guid>http://qytan.com/authors/lin-gao/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zherong Pan</title>
-      <link>/authors/zherong-pan/</link>
+      <link>http://qytan.com/authors/zherong-pan/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/zherong-pan/</guid>
+      <guid>http://qytan.com/authors/zherong-pan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shihong Xia</title>
-      <link>/authors/shihong-xia/</link>
+      <link>http://qytan.com/authors/shihong-xia/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/shihong-xia/</guid>
+      <guid>http://qytan.com/authors/shihong-xia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yu-Kun Lai</title>
-      <link>/authors/yu-kun-lai/</link>
+      <link>http://qytan.com/authors/yu-kun-lai/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/yu-kun-lai/</guid>
+      <guid>http://qytan.com/authors/yu-kun-lai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xilin Chen</title>
-      <link>/authors/xilin-chen/</link>
+      <link>http://qytan.com/authors/xilin-chen/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/xilin-chen/</guid>
+      <guid>http://qytan.com/authors/xilin-chen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xiujuan Chai</title>
-      <link>/authors/xiujuan-chai/</link>
+      <link>http://qytan.com/authors/xiujuan-chai/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/xiujuan-chai/</guid>
+      <guid>http://qytan.com/authors/xiujuan-chai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jie Yang</title>
-      <link>/authors/jie-yang/</link>
+      <link>http://qytan.com/authors/jie-yang/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/jie-yang/</guid>
+      <guid>http://qytan.com/authors/jie-yang/</guid>
       <description></description>
     </item>
     

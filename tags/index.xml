@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | QINGYANG TAN</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://qytan.com/tags/</link>
+      <atom:link href="http://qytan.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>http://qytan.com/img/icon-192.png</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>http://qytan.com/tags/</link>
     </image>
     
     <item>
       <title>Planning</title>
-      <link>/tags/planning/</link>
+      <link>http://qytan.com/tags/planning/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/planning/</guid>
+      <guid>http://qytan.com/tags/planning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloth</title>
-      <link>/tags/cloth/</link>
+      <link>http://qytan.com/tags/cloth/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/cloth/</guid>
+      <guid>http://qytan.com/tags/cloth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mesh Embedding</title>
-      <link>/tags/mesh-embedding/</link>
+      <link>http://qytan.com/tags/mesh-embedding/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/mesh-embedding/</guid>
+      <guid>http://qytan.com/tags/mesh-embedding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VAE</title>
-      <link>/tags/vae/</link>
+      <link>http://qytan.com/tags/vae/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/vae/</guid>
+      <guid>http://qytan.com/tags/vae/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sign Language</title>
-      <link>/tags/sign-language/</link>
+      <link>http://qytan.com/tags/sign-language/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/sign-language/</guid>
+      <guid>http://qytan.com/tags/sign-language/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AE</title>
-      <link>/tags/ae/</link>
+      <link>http://qytan.com/tags/ae/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/ae/</guid>
+      <guid>http://qytan.com/tags/ae/</guid>
       <description></description>
     </item>
     

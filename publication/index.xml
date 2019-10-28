@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | QINGYANG TAN</title>
-    <link>/publication/</link>
-      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://qytan.com/publication/</link>
+      <atom:link href="http://qytan.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>http://qytan.com/img/icon-192.png</url>
       <title>Publications</title>
-      <link>/publication/</link>
+      <link>http://qytan.com/publication/</link>
     </image>
     
     <item>
       <title>DeepMNavigate: Deep Reinforced Multi-Robot Navigation Unifying Local &amp; Global Collision</title>
-      <link>/publication/global_planning/</link>
+      <link>http://qytan.com/publication/global_planning/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/global_planning/</guid>
+      <guid>http://qytan.com/publication/global_planning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>
-      <link>/publication/cloth_embedding/</link>
+      <link>http://qytan.com/publication/cloth_embedding/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/cloth_embedding/</guid>
+      <guid>http://qytan.com/publication/cloth_embedding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Variational Autoencoders for Deforming 3D Mesh Models</title>
-      <link>/publication/vae/</link>
+      <link>http://qytan.com/publication/vae/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/vae/</guid>
+      <guid>http://qytan.com/publication/vae/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Attention-based Isolated Gesture Recognition with Multi-task Learning</title>
-      <link>/publication/sign_language/</link>
+      <link>http://qytan.com/publication/sign_language/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sign_language/</guid>
+      <guid>http://qytan.com/publication/sign_language/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mesh-based Autoencoders for Localized Deformation Component Analysis</title>
-      <link>/publication/sparse/</link>
+      <link>http://qytan.com/publication/sparse/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sparse/</guid>
+      <guid>http://qytan.com/publication/sparse/</guid>
       <description></description>
     </item>
     
