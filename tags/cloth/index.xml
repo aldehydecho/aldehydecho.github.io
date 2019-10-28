@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloth | QINGYANG TAN</title>
-    <link>http://qytan.com/tags/cloth/</link>
-      <atom:link href="http://qytan.com/tags/cloth/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/cloth/</link>
+      <atom:link href="/tags/cloth/index.xml" rel="self" type="application/rss+xml" />
     <description>Cloth</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://qytan.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Cloth</title>
-      <link>http://qytan.com/tags/cloth/</link>
+      <link>/tags/cloth/</link>
     </image>
     
     <item>
       <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>
-      <link>http://qytan.com/publication/cloth_embedding/</link>
+      <link>/publication/cloth_embedding/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>http://qytan.com/publication/cloth_embedding/</guid>
+      <guid>/publication/cloth_embedding/</guid>
       <description></description>
     </item>
     

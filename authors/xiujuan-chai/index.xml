@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xiujuan Chai | QINGYANG TAN</title>
-    <link>http://qytan.com/authors/xiujuan-chai/</link>
-      <atom:link href="http://qytan.com/authors/xiujuan-chai/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/xiujuan-chai/</link>
+      <atom:link href="/authors/xiujuan-chai/index.xml" rel="self" type="application/rss+xml" />
     <description>Xiujuan Chai</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 25 May 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://qytan.com/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Xiujuan Chai</title>
-      <link>http://qytan.com/authors/xiujuan-chai/</link>
+      <link>/authors/xiujuan-chai/</link>
     </image>
     
     <item>
       <title>Attention-based Isolated Gesture Recognition with Multi-task Learning</title>
-      <link>http://qytan.com/publication/sign_language/</link>
+      <link>/publication/sign_language/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://qytan.com/publication/sign_language/</guid>
+      <guid>/publication/sign_language/</guid>
       <description></description>
     </item>
     
