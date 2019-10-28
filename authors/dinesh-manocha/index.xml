@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dinesh Manocha | QINGYANG TAN</title>
+    <link>/authors/dinesh-manocha/</link>
+      <atom:link href="/authors/dinesh-manocha/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dinesh Manocha</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Dinesh Manocha</title>
+      <link>/authors/dinesh-manocha/</link>
+    </image>
+    
+    <item>
+      <title>DeepMNavigate: Deep Reinforced Multi-Robot Navigation Unifying Local &amp; Global Collision</title>
+      <link>/publication/global_planning/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/global_planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>
+      <link>/publication/cloth_embedding/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/cloth_embedding/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

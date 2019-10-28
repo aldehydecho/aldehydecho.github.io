@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | QINGYANG TAN</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am Qingyang Tan. I am a Ph.D. student at &lt;a href=&#34;http://www.cs.umd.edu/&#34; target=&#34;_blank&#34;&gt;University of Maryland, College Park&lt;/a&gt;. I received the B.Eng. degree in Computer Science and Technology from &lt;a href=&#34;http://english.ucas.ac.cn/&#34; target=&#34;_blank&#34;&gt;University of Chinese Academy of Sciences&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Currently, I am a research assistant at &lt;a href=&#34;http://www.umiacs.umd.edu/&#34; target=&#34;_blank&#34;&gt;UMIACS&lt;/a&gt; advised by &lt;a href=&#34;https://www.cs.umd.edu/people/dmanocha&#34; target=&#34;_blank&#34;&gt;Prof. Dinesh Manocha&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Before that, I conducted my undegraduate thesis in &lt;a href=&#34;http://vipl.ict.ac.cn/&#34; target=&#34;_blank&#34;&gt;VIPL Group&lt;/a&gt; at &lt;a href=&#34;http://english.ict.cas.cn/&#34; target=&#34;_blank&#34;&gt;Institute of Computing Technology (ICT)&lt;/a&gt;, &lt;a href=&#34;http://english.cas.cn/&#34; target=&#34;_blank&#34;&gt;Chinese Academy of Sciences (CAS)&lt;/a&gt;, under the supervision of &lt;a href=&#34;http://vipl.ict.ac.cn/view_people.php?url=xlchen&amp;amp;id=13&#34; target=&#34;_blank&#34;&gt;Prof. Xilin Chen&lt;/a&gt; and &lt;a href=&#34;http://vipl.ict.ac.cn/view_people.php?url=&amp;amp;id=48&#34; target=&#34;_blank&#34;&gt;Prof. Xiujuan Chai&lt;/a&gt;. Before that, I interned in &lt;a href=&#34;http://humanmotion.ict.ac.cn/en/index.html&#34; target=&#34;_blank&#34;&gt;Human Motion Research Group&lt;/a&gt; at ICT, CAS, supervised by &lt;a href=&#34;http://www.escience.cn/people/gaolin/index.html&#34; target=&#34;_blank&#34;&gt;Prof. Lin Gao&lt;/a&gt;, &lt;a href=&#34;http://users.cs.cf.ac.uk/Yukun.Lai/&#34; target=&#34;_blank&#34;&gt;Prof. Yu-Kun Lai&lt;/a&gt; and &lt;a href=&#34;http://humanmotion.ict.ac.cn/en/people/xiashihong.html&#34; target=&#34;_blank&#34;&gt;Prof. Shihong Xia&lt;/a&gt;. I also have serveral research experiences in interdisciplinary science, including UROP projects in &lt;a href=&#34;http://imes.mit.edu/&#34; target=&#34;_blank&#34;&gt;Institute of Medical Engineering &amp;amp; Science&lt;/a&gt; and &lt;a href=&#34;http://mitsloan.mit.edu/&#34; target=&#34;_blank&#34;&gt;MIT Sloan School of Management&lt;/a&gt; of &lt;a href=&#34;web.mit.edu&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt;, and &lt;a href=&#34;http://2016.igem.org/Team:UCAS&#34; target=&#34;_blank&#34;&gt;synthetic biology project&lt;/a&gt; for the &lt;a href=&#34;http://igem.org/Main_Page&#34; target=&#34;_blank&#34;&gt;International Genetically Engineered Machine (iGEM) competition&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here is my &lt;a href=&#34;files/Qingyang_Tan_Resume.pdf&#34; target=&#34;_blank&#34;&gt;resume&lt;/a&gt;. Please feel free to &lt;a href=&#34;mailto:qytan@outlook.com&#34; target=&#34;_blank&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dinesh Manocha</title>
+      <link>/authors/dinesh-manocha/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/dinesh-manocha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jia Pan</title>
+      <link>/authors/jia-pan/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/jia-pan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tingxiang Fan</title>
+      <link>/authors/tingxiang-fan/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/tingxiang-fan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lin Gao</title>
+      <link>/authors/lin-gao/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/lin-gao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zherong Pan</title>
+      <link>/authors/zherong-pan/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/zherong-pan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shihong Xia</title>
+      <link>/authors/shihong-xia/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/shihong-xia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yu-Kun Lai</title>
+      <link>/authors/yu-kun-lai/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/yu-kun-lai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xilin Chen</title>
+      <link>/authors/xilin-chen/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/xilin-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiujuan Chai</title>
+      <link>/authors/xiujuan-chai/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/xiujuan-chai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jie Yang</title>
+      <link>/authors/jie-yang/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/jie-yang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

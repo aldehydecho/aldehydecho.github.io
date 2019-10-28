@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3 on QINGYANG TAN</title>
+    <title>3 | QINGYANG TAN</title>
     <link>/publication_types/3/</link>
-    <description>Recent content in 3 on QINGYANG TAN</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Qingyang Tan</copyright>
-    <lastBuildDate>Fri, 25 May 2018 00:00:00 +0000</lastBuildDate>
+      <atom:link href="/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>3</title>
+      <link>/publication_types/3/</link>
+    </image>
     
-	<atom:link href="/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DeepMNavigate: Deep Reinforced Multi-Robot Navigation Unifying Local &amp; Global Collision</title>
+      <link>/publication/global_planning/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/global_planning/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>
+      <link>/publication/cloth_embedding/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/cloth_embedding/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Attention-based Isolated Gesture Recognition with Multi-task Learning</title>
       <link>/publication/sign_language/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>/publication/sign_language/</guid>
       <description></description>
     </item>

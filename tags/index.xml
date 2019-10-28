@@ -1,59 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on QINGYANG TAN</title>
+    <title>Tags | QINGYANG TAN</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on QINGYANG TAN</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Qingyang Tan</copyright>
-    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>/tags/</link>
+    </image>
     
     <item>
-      <title>Course Project</title>
-      <link>/tags/course-project/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/course-project/</guid>
+      <title>Planning</title>
+      <link>/tags/planning/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/planning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Deep Learning</title>
-      <link>/tags/deep-learning/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/deep-learning/</guid>
+      <title>Cloth</title>
+      <link>/tags/cloth/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/cloth/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Motion Planning</title>
-      <link>/tags/motion-planning/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/motion-planning/</guid>
+      <title>Mesh Embedding</title>
+      <link>/tags/mesh-embedding/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/mesh-embedding/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Reinforcement Learning</title>
-      <link>/tags/reinforcement-learning/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/reinforcement-learning/</guid>
+      <title>VAE</title>
+      <link>/tags/vae/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/tags/vae/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Robotics</title>
-      <link>/tags/robotics/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/robotics/</guid>
+      <title>Sign Language</title>
+      <link>/tags/sign-language/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      <guid>/tags/sign-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AE</title>
+      <link>/tags/ae/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>/tags/ae/</guid>
       <description></description>
     </item>
     
