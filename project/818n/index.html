@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.46" />
+  <meta name="author" content="Qingyang Tan">
+  <meta name="description" content="Ph.D. Student">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Mono|Merriweather|Encode+Sans+Expanded:400" rel="stylesheet">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-104067219-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="QINGYANG TAN">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="QINGYANG TAN">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="/project/818n/">
+
+  
+
+  <title>Deep Combined Reinforcement Learning Planner for Multi-Robot System | QINGYANG TAN</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Deep Combined Reinforcement Learning Planner for Multi-Robot System</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p><strong>Authors</strong><br />
+Qingyang Tan (<a href="mailto:qytan@cs.umd.edu" target="_blank">qytan@cs.umd.edu</a>)<br />
+Dunbang He (<a href="mailto:dhe@terpmail.umd.edu" target="_blank">dhe@terpmail.umd.edu</a>)<br />
+Shuangqi Luo (<a href="mailto:sklaw@umd.edu" target="_blank">sklaw@umd.edu</a>)</p>
+
+<p><img src="/img/robotics_planning.png" alt="" /></p>
+
+<h1 id="1-research-goal">1. Research Goal</h1>
+
+<p>In this project, we want to build a planner for multi-robot system, using local and global information and dividing policy decision process into two phases. We want to leverage the power of reinforcement learning, and train the policy in a simulation scenario, instead of using real-word training data.</p>
+
+<p>There exist successful decentralized methods [1, 2, 3] based on reinforcement learning to navigate multi-robot system to avoid collision. Decentralized method does not require frequent communication and only uses local observation; However, with improvement of communication and positioning technology, e.g. 5G network and wifi-based indoor positioning system, we can more easily acquire global system status. Meanwhile, centralized system can guarantee safety, completeness, and approximate optimality solution [1]. Thus, in this project, we want to build a system using global information and computation in a simulated environment. To reduce complexity, we also assume the system has no communication latency and has a clear global sensor measurement.</p>
+
+<p>We plan to formulate global information as a map with each agent’s location. This formulation can fit most of large systems no matter how many agents the system have. Also, we can use sophisticated convolutional neural network (CNN) to process this image-like input, to better understand the running environment.</p>
+
+<p>We cannot deny that fully-centralized method has some drawbacks compared to fully distributed methods. For example, fully-centralized method computation rely on one central server. The central server may cannot process huge-amount of information, or the system may break down once the central server stopped. Thus, in this project, we want to divide the planner into two phases, i.e. global decision period with global information on central computer and local decision period with each agent’s own observation on its processor. Previous work including [4] shows that this idea could work. We want to combine deep reinforcement learning in this project.</p>
+
+<p><font size=4><strong><em>In sum, our main goal of this research project is to build a multi-robot planner, combining local and global observation, deviding decision into two phases, and using deep reinforcement learning. We want to build our system on top of previous work [1], and demonstrate its planning result for multi-robot system on different scenarios.</em></strong></font></p>
+
+<p><font size=4><strong><em>At the end of the semester, we want to compare with state-of-art methods in two possible directions:</em></strong></font></p>
+
+<ol>
+<li><font size=4><strong><em>Handling more complicated system with more robots involved;</em></strong></font></li>
+<li><font size=4><strong><em>Generating a faster global plan for each robot reaching its own goal.</em></strong></font></li>
+</ol>
+
+<h1 id="2-motivation">2. Motivation</h1>
+
+<p>While humans and animals most of time navigate their lives based on local information, which is obtained through their natural perceptions, the underlying planning process may not yield the optimal result. For example, traffic throughput rarely reaches its theoretical maximum because people tend to change their speed based on local observations and thus causing traffic waves that lead to traffic congestion, as shown in the following video.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/Suugn-p5C1M" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p>Therefore, we want to investigate, in a multi-robot system, how the overall performance of navigation measured in time could benefit from the extra input of global information.</p>
+
+<h1 id="3-related-work">3. Related work</h1>
+
+<p>Narain et al. [4] present a hybrid representation for large dense crowds with discrete agents using a dual representation both as discrete agents and as a single continuous system. The scalable crowd simulation approach makes it possible to simulate very large, dense crowds at near-interactive rates on desktop.</p>
+
+<p>Fan et al. [1] develop a fully decentralized multi-robot collision avoidance framework, where each robot makes navigation decisions independently without any communication with others. A sensor-level collision avoidance policy that maps raw sensor measurements to an agent’s steering commands in terms of the movement velocity is learned via reinforcement learning. The learned policy is combined with traditional control approaches to further improve policy’s robustness and effectiveness.</p>
+
+<p>Khan et al. [6] cast the multi-agent reinforcement learning problem as a distributed optimization problem, assuming that for multi-agent settings, policies of individual agents in a given population live close to each other in parameter space and can be approximated by a single policy. Yoon et al. [7] extend the framework of centralized training with decentralized execution to include additional optimization of the inter-agent communication. Sadhu et al. [8] propose consensus-based multi-agent Q-learning to address the bottleneck of the optimal equilibrium selection among multiple types. Kim et al. [9] propose a new training method named message-dropout, yielding efficient learning for multi-agent deep reinforcement learning with information exchange with large input dimensions. Mirowski et al. [10] presents an end-to-end deep reinforcement learning approach that can be applied to real world visual navigation through city-scale environments.</p>
+
+<h1 id="4-plan">4. Plan</h1>
+
+<h2 id="timeline">Timeline:</h2>
+
+<ol>
+<li>Early March: Review of more previous work related to this project</li>
+<li>Mid March - Late March:
+Reproduce some related work, e.g. [1];<br />
+Create simulator for this project</li>
+<li>Early Apri - Mid April: Develop our system; train on simulator</li>
+<li>Late April - Early May: Test our final system; write report</li>
+</ol>
+
+<h1 id="references">References</h1>
+
+<p>[1] Tingxiang Fan, Pinxin Long, Wenxi Liu, Jia Pan. Fully Distributed Multi-Robot Collision Avoidance via Deep Reinforcement Learning for Safe and Efficient Navigation in Complex Scenarios. arXiv, 2018<br />
+[2] Pinxin Long, Tingxiang Fan, Xinyi Liao, Wenxi Liu, Hao Zhang, Jia Pan. Towards Optimally Decentralized Multi-Robot Collision Avoidance via Deep Reinforcement Learning. International Conference on Robotics and Automation (ICRA), 2018.<br />
+[3] Pinxin Long, Wenxi Liu, Jia Pan. Deep-Learned Collision Avoidance Policy for Distributed Multi-Agent Navigation. IEEE Robotics and Automation Letters, 2(2), 656-663, 2017.<br />
+[4] Rahul Narain, Abhinav Golas, Sean Curtis, Ming C. Lin. Aggregate Dynamics for Dense Crowd Simulation. SIGGRAPH Asia 2009<br />
+[5] Rios-Torres, Jackeline, and Andreas A. Malikopoulos. &ldquo;A survey on the coordination of connected and automated vehicles at intersections and merging at highway on-ramps.&rdquo; IEEE Transactions on Intelligent Transportation Systems 18.5 (2017): 1066-1077.<br />
+[6] Khan, Arbaaz, et al. &ldquo;Scalable Centralized Deep Multi-Agent Reinforcement Learning via Policy Gradients.&rdquo; arXiv preprint arXiv:1805.08776 (2018).<br />
+[7] Yoon, Hyung-Jin, et al. &ldquo;Learning to Communicate: A Machine Learning Framework for Heterogeneous Multi-Agent Robotic Systems.&rdquo; AIAA Scitech 2019 Forum. 2019.<br />
+[8] Sadhu, Arup Kumar, et al. &ldquo;Multi-robot cooperative planning by consensus Q-learning.&rdquo; 2017 International Joint Conference on Neural Networks (IJCNN). IEEE, 2017.<br />
+[9] Kim, Woojun, Myungsik Cho, and Youngchul Sung. &ldquo;Message-Dropout: An Efficient Training Method for Multi-Agent Deep Reinforcement Learning.&rdquo; arXiv preprint arXiv:1902.06527 (2019).<br />
+[10] Mirowski, Piotr, et al. &ldquo;Learning to navigate in cities without a map.&rdquo; Advances in Neural Information Processing Systems. 2018.</p>
+
+    </div>
+
+  </div>
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2019 Qingyang Tan &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

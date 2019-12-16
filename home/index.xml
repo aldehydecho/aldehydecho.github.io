@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on QINGYANG TAN</title>
+    <link>/home/</link>
+    <description>Recent content in Homes on QINGYANG TAN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Qingyang Tan</copyright>
+    <lastBuildDate>Sat, 06 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Sat, 06 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>I am Qingyang Tan. I am a Ph.D. student at University of Maryland, College Park. I received the B.Eng. degree in Computer Science and Technology from University of Chinese Academy of Sciences.
+Currently, I am a research assistant at UMIACS advised by Prof. Dinesh Manocha.
+Before that, I conducted my undegraduate thesis in VIPL Group at Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS), under the supervision of Prof.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
