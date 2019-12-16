@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>QINGYANG TAN</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>QINGYANG TAN</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Nonlinear Subspace Cloth Simulation</title>
+      <link>/project/828x/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/828x/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DeepMNavigate: Deep Reinforced Multi-Robot Navigation Unifying Local &amp; Global Collision</title>

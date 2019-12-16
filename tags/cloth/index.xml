@@ -5,12 +5,20 @@
     <link>/tags/cloth/</link>
       <atom:link href="/tags/cloth/index.xml" rel="self" type="application/rss+xml" />
     <description>Cloth</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Cloth</title>
       <link>/tags/cloth/</link>
     </image>
+    
+    <item>
+      <title>Nonlinear Subspace Cloth Simulation</title>
+      <link>/project/828x/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/828x/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>

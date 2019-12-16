@@ -5,12 +5,20 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
       <link>/tags/</link>
     </image>
+    
+    <item>
+      <title>Cloth</title>
+      <link>/tags/cloth/</link>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/cloth/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Planning</title>
@@ -21,58 +29,10 @@
     </item>
     
     <item>
-      <title>Cloth</title>
-      <link>/tags/cloth/</link>
-      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/cloth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Mesh Embedding</title>
       <link>/tags/mesh-embedding/</link>
       <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
       <guid>/tags/mesh-embedding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>course-project</title>
-      <link>/tags/course-project/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/course-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep-learning</title>
-      <link>/tags/deep-learning/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>motion-planning</title>
-      <link>/tags/motion-planning/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/motion-planning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reinforcement-learning</title>
-      <link>/tags/reinforcement-learning/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/reinforcement-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>robotics</title>
-      <link>/tags/robotics/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/robotics/</guid>
       <description></description>
     </item>
     
