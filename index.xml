@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>QINGYANG TAN on QINGYANG TAN</title>
+    <title>QINGYANG TAN</title>
     <link>/</link>
-    <description>Recent content in QINGYANG TAN on QINGYANG TAN</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Qingyang Tan</copyright>
-    <lastBuildDate>Sat, 06 Jan 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>QINGYANG TAN</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>QINGYANG TAN</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>DeepMNavigate: Deep Reinforced Multi-Robot Navigation Unifying Local &amp; Global Collision</title>
+      <link>/publication/global_planning/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/global_planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>
+      <link>/publication/cloth_embedding/</link>
+      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/cloth_embedding/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deep Combined Reinforcement Learning Planner for Multi-Robot System</title>
       <link>/project/818n/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>/project/818n/</guid>
       <description>
 
@@ -50,7 +67,7 @@ Shuangqi Luo (&lt;a href=&#34;mailto:sklaw@umd.edu&#34; target=&#34;_blank&#34;&
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Suugn-p5C1M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Suugn-p5C1M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -96,7 +113,6 @@ Create simulator for this project&lt;/li&gt;
       <title>Variational Autoencoders for Deforming 3D Mesh Models</title>
       <link>/publication/vae/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
-      
       <guid>/publication/vae/</guid>
       <description></description>
     </item>
@@ -105,7 +121,6 @@ Create simulator for this project&lt;/li&gt;
       <title>Attention-based Isolated Gesture Recognition with Multi-task Learning</title>
       <link>/publication/sign_language/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>/publication/sign_language/</guid>
       <description></description>
     </item>
@@ -113,8 +128,7 @@ Create simulator for this project&lt;/li&gt;
     <item>
       <title>Mesh-based Autoencoders for Localized Deformation Component Analysis</title>
       <link>/publication/sparse/</link>
-      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
-      
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       <guid>/publication/sparse/</guid>
       <description></description>
     </item>
