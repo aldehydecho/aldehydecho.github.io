@@ -17,7 +17,41 @@
       <link>/project/828x/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       <guid>/project/828x/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;strong&gt;Author&lt;/strong&gt;&lt;br /&gt;
+Qingyang Tan (&lt;a href=&#34;mailto:qytan@cs.umd.edu&#34; target=&#34;_blank&#34;&gt;qytan@cs.umd.edu&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In this project, we want to build a cloth simulator in a nonlinear subspace to reduce the search space. We leverage the graph-based convolutional neural network (GCNN) with a physical-inspired loss term to build an embedding network for cloth models. We then use mass-spring systems or finite element method (FEM) to model the cloth energy and build a simulator based on the nonlinear embedded space. We show that using the proposed method can better capture cloth deformation and generalize on new control information well.&lt;/p&gt;
+
+&lt;p&gt;new control ours
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/b_Agzln2qWw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;new control predictor
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ckX0NKs-uIg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;hole
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/6IoxsE7JdVE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;fem
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/tE4UZ3trZBA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
     </item>
     
     <item>
