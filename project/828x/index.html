@@ -496,6 +496,28 @@ In this project, we want to build a cloth simulator in a nonlinear subspace to r
 
 <h2 id="proposed-method">Proposed Method</h2>
 
+<p><strong>GCNN-based Embedding</strong></p>
+
+<p>In this section, we provide an overview of low-dimensional embedding of the cloth meshes. Our goal is to obtain a subspace through a set of $N$ deformed cloth meshes, $S_m$, with each mesh represented using a set of $K$ vertices, denoted as $\mathbf{p}_m\in\mathbb{R}^{3K}$.</p>
+
+<p>We denote the $i$th vertex as $\mathbf{p}_{m,i}\in\mathbb{R}^3$. Here $m=1,\cdots,N$ and $i=1,\cdots,K$. These vertices are connected by edges, so we can define the 1-ring neighbor set, $\mathcal{N}^1_i$, and the 2-ring neighbor set, $\mathcal{N}^2_i$, for each $\mathbf{p}_i$. Our goal is to find a map $\mathbf{z}\to\mathbf{p}$, where $\mathbf{z}$ is a low-dimensional feature and $\mathbf{p}\in\mathbf{R}^{3K}$ such that, for each $m$, there exists a $\mathbf{z}_m$ where $\mathbf{z}_m$ is mapped to a mesh close to $\mathbf{p}_m$. To define such a function $\mathbf{D}$, we use graph-based CNN and ACAP features [8] to represent large-scale deformations.</p>
+
+<p>We define $\mathbf{D}$ as a graph-based CNN using local filters
+$$
+\mathbf{D}\triangleq\mathbf{C}_L^T\cdots\mathbf{C}_2^T\circ\mathbf{C}_1^T\circ\mathbf{F}^T,
+$$
+where $L$ is the number of convolutional layers and $\mathbf{C}^T$ is the transpose of a graph-based convolutional operator, $\mathbf{F}$ is a fully connected layer. Each layer is appended by a leaky ReLU activation layer.</p>
+
+<p>A graph-based convolutional layer is a linear operator defined as:
+$$
+\mathbf{C}(\mathbf{x})_i = \mathbf{W}\mathbf{x}_i+\mathbf{W_N}(\Sigma_j\mathbf{x}_j)/N_i + b
+$$
+where $\mathbf{W},\mathbf{W_N}, b$ are optimizable weights and biases, respectively; $j$ is the index of neighbors of $i$ and $N_i$ is the degree of vertex $i$.</p>
+
+<p>All the weights in the CNN are trained in a self-supervised manner using an autoencoder and a reconstruction loss in ACAP feature and physical-inspired loss mentioned in the later section.</p>
+
+<p><strong>Model the Physics of Cloth Deformation</strong></p>
+
 <h2 id="experimental-results">Experimental Results</h2>
 
 <h2 id="conclusion">Conclusion</h2>
