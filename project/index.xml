@@ -28,11 +28,21 @@ Qingyang Tan (&lt;a href=&#34;mailto:qytan@cs.umd.edu&#34; target=&#34;_blank&#3
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;Cloth simulation has applications in different areas, including animation, robotic control, gaming. Usually, cloth is modeled as a 2D thin-shell object in a 3D space and represented by high-resolution mesh. Many techniques have been developed to simulate the deformation of cloth in this mesh-based repsentation, including the mass-spring systems, the finite-element method. However, the complexity of these methods depends on the number of degree of fredoms (DOF), vary from $\mathcal{O}(n^{1.5})$ to $\mathcal{O}(n^{3})$. It would be hard to depoly high-resolution cloth simulation on devices with limited computation resources, e.g., cell phones.&lt;/p&gt;
+&lt;p&gt;Cloth simulation has applications in different areas, including animation, robotic control, gaming. Usually, the cloth is modeled as a 2D thin-shell object in a 3D space and represented by a high-resolution mesh. Many techniques have been developed to simulate the deformation of cloth in this mesh-based representation, including the mass-spring systems [1], the finite-element method [2]. However, the complexity of these methods depends on the number of degrees of freedoms (DOF), vary from $\mathcal{O}(n^{1.5})$ to $\mathcal{O}(n^{3})$. It would be hard to deploy high-resolution cloth simulation on devices with limited computation resources, e.g., cell phones.&lt;/p&gt;
 
-&lt;p&gt;Data-driven methods have been proposed to solve the&lt;/p&gt;
+&lt;p&gt;Data-driven methods have been proposed to accelerate the simulation process. These kinds of methods leverage the results from pre-computation to accelerate run-time simulation process. Previous works including non-learning methods, such as motion graph [3], and learning-based methods, such as subspace simulation [4, 5] and frame predictor [6, 7]. However, previous methods may suffer from loss of details or freedom of new control information.&lt;/p&gt;
+
+&lt;p&gt;In our project, we propose to combine GCNN based neural network embedding [8] and subspace integration to capture more details of cloth deformation while allowing full freedom to control the cloth simulation.&lt;/p&gt;
 
 &lt;h2 id=&#34;related-work&#34;&gt;Related Work&lt;/h2&gt;
+
+&lt;p&gt;We will briefly discuss previous works in this section.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Motion Graph&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Subspace Integration&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Frame Predictor&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;proposed-method&#34;&gt;Proposed Method&lt;/h2&gt;
 
@@ -41,6 +51,15 @@ Qingyang Tan (&lt;a href=&#34;mailto:qytan@cs.umd.edu&#34; target=&#34;_blank&#3
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[1] K.-J. Choi and H.-S. Ko, “Stable but responsive cloth,” in SIGGRAPH 2002.&lt;br /&gt;
+[2] R. Narain, A. Samii, and J. F. O’Brien, “Adaptive anisotropic remeshing for cloth simulation,”  ACM TOG, 2002.&lt;br /&gt;
+[3] D. Kim, W. Koh, R. Narain, K. Fatahalian, A. Treuille, and J. F. O’Brien, “Near-exhaustive precomputation of secondary cloth effects,” ACM TOG, 2013.&lt;br /&gt;
+[4] J. Barbič and D. L. James, “Real-time subspace integration for st. venant-kirchhoff deformable models,” ACM TOG, 2005.&lt;br /&gt;
+[5] L. Fulton, V. Modi, D. Duvenaud, D. I. W. Levin, and A. Jacobson, “Latent-space dynamics for reduced deformable simulation,” Computer Graphics Forum, 2019.&lt;br /&gt;
+[6] E. De Aguiar, L. Sigal, A. Treuille, and J. K. Hodgins, “Stable spaces for real-time clothing,” ACM TOG, 2010.&lt;br /&gt;
+[7] D. Holden, B. C. Duong, S. Datta, and D. Nowrouzezahrai, “Subspace neural physics: fast data-driven interactive simulation,” in Proceedings of the 18th annual ACM SIGGRAPH/Eurographics Symposium on Computer Animation. ACM, 2019.&lt;br /&gt;
+[8] Q. Tan, Z. Pan, L. Gao, and D. Manocha, “Realtime simulation of thin-shell deformable materials using cnn-based mesh embedding,” arXiv preprint arXiv:1909.12354, 2019.&lt;/p&gt;
 
 &lt;p&gt;new control ours
 
