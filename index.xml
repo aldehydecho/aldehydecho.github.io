@@ -22,9 +22,8 @@
 &lt;p&gt;&lt;strong&gt;Author&lt;/strong&gt;&lt;br /&gt;
 Qingyang Tan (&lt;a href=&#34;mailto:qytan@cs.umd.edu&#34; target=&#34;_blank&#34;&gt;qytan@cs.umd.edu&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In this project, we want to build a cloth simulator in a nonlinear subspace to reduce the search space. We leverage the graph-based convolutional neural network (GCNN) with a physical-inspired loss term to build an embedding network for cloth models. We then use mass-spring systems or finite-element method (FEM) to model the cloth energy and build a simulator based on the nonlinear embedded space. We show that using the proposed method can better capture cloth deformation and generalize on new control information well.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;br /&gt;
+In this project, we want to build a cloth simulator in a nonlinear subspace to reduce the search space. We leverage the graph-based convolutional neural network (GCNN) with a physical-inspired loss term to build an embedding network for cloth models. We then use mass-spring systems or finite-element method (FEM) to model the cloth energy and build a simulator based on the nonlinear embedded space. We show that using the proposed method can better capture cloth deformation and generalize on new control information well.&lt;/p&gt;
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
@@ -38,9 +37,11 @@ Qingyang Tan (&lt;a href=&#34;mailto:qytan@cs.umd.edu&#34; target=&#34;_blank&#3
 
 &lt;p&gt;We will briefly discuss previous works in this section.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Motion Graph&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Motion Graph&lt;/strong&gt;&lt;br /&gt;
+[3] proposes to incrementally construct a secondary cloth motion to capture almost everything in the system and then compress the raw mesh data from tens of gigabytes to only tens of megabytes. This method allows the system to capture the effect of high-resolution, off-line cloth simulation for a rich space of character motion and deliver it efﬁciently as part of an interactive application. However, the simulation is fully constrained by pre-computation and it can only deliver results explored during construction. We want to use subspace integration to give users full control of the cloth simulation process.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Subspace Integration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Subspace Integration&lt;/strong&gt;&lt;br /&gt;
+[4, 5] both conduct subspace integration to accelerate model simulation. [4] uses mass-scaled principal component analysis (mass-PCA), which is a linear model. [5] uses a fully-connected autoencoder based on PCA results, which is not computationally efficient and is constrained with the linear PCA basis. Thus, both methods cannot capture the nonlinear deformation well of cloth material. We propose to leverage the power of GCNN to exploit the subspace of cloth models and increase the accuracy of deformation.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Frame Predictor&lt;/strong&gt;&lt;/p&gt;
 
@@ -50,9 +51,8 @@ Qingyang Tan (&lt;a href=&#34;mailto:qytan@cs.umd.edu&#34; target=&#34;_blank&#3
 
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;[1] K.-J. Choi and H.-S. Ko, “Stable but responsive cloth,” in SIGGRAPH 2002.&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;br /&gt;
+[1] K.-J. Choi and H.-S. Ko, “Stable but responsive cloth,” in SIGGRAPH 2002.&lt;br /&gt;
 [2] R. Narain, A. Samii, and J. F. O’Brien, “Adaptive anisotropic remeshing for cloth simulation,”  ACM TOG, 2002.&lt;br /&gt;
 [3] D. Kim, W. Koh, R. Narain, K. Fatahalian, A. Treuille, and J. F. O’Brien, “Near-exhaustive precomputation of secondary cloth effects,” ACM TOG, 2013.&lt;br /&gt;
 [4] J. Barbič and D. L. James, “Real-time subspace integration for st. venant-kirchhoff deformable models,” ACM TOG, 2005.&lt;br /&gt;
