@@ -17,12 +17,24 @@
       <link>/project/828x/</link>
       <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
       <guid>/project/828x/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Author&lt;/strong&gt;&lt;br /&gt;
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Author&lt;/strong&gt;&lt;br /&gt;
 Qingyang Tan (&lt;a href=&#34;mailto:qytan@cs.umd.edu&#34; target=&#34;_blank&#34;&gt;qytan@cs.umd.edu&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;In this project, we want to build a cloth simulator in a nonlinear subspace to reduce the search space. We leverage the graph-based convolutional neural network (GCNN) with a physical-inspired loss term to build an embedding network for cloth models. We then use mass-spring systems or finite element method (FEM) to model the cloth energy and build a simulator based on the nonlinear embedded space. We show that using the proposed method can better capture cloth deformation and generalize on new control information well.&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;h2 id=&#34;related-work&#34;&gt;Related Work&lt;/h2&gt;
+
+&lt;h2 id=&#34;proposed-method&#34;&gt;Proposed Method&lt;/h2&gt;
+
+&lt;h2 id=&#34;experimental-results&#34;&gt;Experimental Results&lt;/h2&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;new control ours
 
