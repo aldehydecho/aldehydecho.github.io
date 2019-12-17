@@ -5,7 +5,7 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Cloth</title>
       <link>/tags/cloth/</link>
-      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       <guid>/tags/cloth/</guid>
       <description></description>
     </item>

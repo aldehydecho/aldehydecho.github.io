@@ -5,7 +5,7 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Mon, 16 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Projects</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Nonlinear Subspace Cloth Simulation</title>
       <link>/project/828x/</link>
-      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       <guid>/project/828x/</guid>
       <description>
 
@@ -43,7 +43,8 @@ In this project, we want to build a cloth simulator in a nonlinear subspace to r
 &lt;p&gt;&lt;strong&gt;Subspace Integration&lt;/strong&gt;&lt;br /&gt;
 [4, 5] both conduct subspace integration to accelerate model simulation. [4] uses mass-scaled principal component analysis (mass-PCA), which is a linear model. [5] uses a fully-connected autoencoder based on PCA results, which is not computationally efficient and is constrained with the linear PCA basis. Thus, both methods cannot capture the nonlinear deformation well of cloth material. We propose to leverage the power of GCNN to exploit the subspace of cloth models and increase the accuracy of deformation.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Frame Predictor&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Frame Predictor&lt;/strong&gt;&lt;br /&gt;
+[6, 7] use machine learning methods to model the simulation process of cloth. Use linear regression or neural network-based method to predict the next frame given control parameters and previous few frames. These methods can be very quick since they do not require heavy computation of the physics model. However, this scheme can easily let the system be overfitted on training data, and it would behave badly on the new unseen control information, as we will show in the result section. So we stick to model the physics law explicitly.&lt;/p&gt;
 
 &lt;h2 id=&#34;proposed-method&#34;&gt;Proposed Method&lt;/h2&gt;
 
