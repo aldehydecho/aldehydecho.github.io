@@ -24,13 +24,9 @@ Qingyang Tan (&lt;a href=&#34;mailto:qytan@cs.umd.edu&#34; target=&#34;_blank&#3
 
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;In this project, we want to build a cloth simulator in a nonlinear subspace to reduce the search space. We leverage the graph-based convolutional neural network (GCNN) with a physical-inspired loss term to build an embedding network for cloth models. We then use mass-spring systems or finite-element method (FEM) to model the cloth energy and build a simulator based on the nonlinear embedded space. We show that using the proposed method can better capture cloth deformation and generalize on new control information well.&lt;/p&gt;
+&lt;p&gt;In this project, we want to build a cloth simulator in a nonlinear subspace to reduce the search space. We leverage the graph-based convolutional neural network (GCNN) with a physical-inspired loss term to build an embedding network for cloth models. We then use mass-spring systems or finite element method (FEM) to model the cloth energy and build a simulator based on the nonlinear embedded space. We show that using the proposed method can better capture cloth deformation and generalize on new control information well.&lt;/p&gt;
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;Cloth simulation has applications in different areas, including animation, robotic control, gaming. Usually, cloth is modeled as a 2D thin-shell object in a 3D space and represented by high-resolution mesh. Many techniques have been developed to simulate the deformation of cloth in this mesh-based repsentation, including the mass-spring systems, the finite-element method. However, the complexity of these methods depends on the number of degree of fredoms (DOF), vary from $\mathcal{O}(n^{1.5})$ to $\mathcal{O}(n^{3})$. It would be hard to depoly high-resolution cloth simulation on devices with limited computation resources, e.g., cell phones.&lt;/p&gt;
-
-&lt;p&gt;Data-driven methods have been proposed to solve the&lt;/p&gt;
 
 &lt;h2 id=&#34;related-work&#34;&gt;Related Work&lt;/h2&gt;
 
@@ -39,8 +35,6 @@ Qingyang Tan (&lt;a href=&#34;mailto:qytan@cs.umd.edu&#34; target=&#34;_blank&#3
 &lt;h2 id=&#34;experimental-results&#34;&gt;Experimental Results&lt;/h2&gt;
 
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;new control ours
 
