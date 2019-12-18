@@ -473,7 +473,7 @@ Qingyang Tan (<a href="mailto:qytan@cs.umd.edu" target="_blank">qytan@cs.umd.edu
 <p><strong>Abstract</strong><br />
 In this project, we want to build a cloth simulator in a nonlinear subspace to reduce the search space. We leverage the graph-based convolutional neural network (GCNN) with a physical-inspired loss term to build an embedding network for cloth models. We then use mass-spring systems or finite-element method (FEM) to model the cloth energy and build a simulator based on the nonlinear embedded space. We show that using the proposed method can better capture cloth deformation and generalize on new control information well.</p>
 
-<h2 id="introduction">Introduction</h2>
+<h2 id="introduction"><strong>Introduction</strong></h2>
 
 <p>Cloth simulation has applications in different areas, including animation, robotic control, gaming. Usually, the cloth is modeled as a 2D thin-shell object in a 3D space and represented by a high-resolution mesh. Many techniques have been developed to simulate the deformation of cloth in this mesh-based representation, including the mass-spring systems [1], the finite-element method [2]. However, the complexity of these methods depends on the number of degrees of freedoms (DOF), vary from $\mathcal{O}(n^{1.5})$ to $\mathcal{O}(n^{3})$. It would be hard to deploy high-resolution cloth simulation on devices with limited computation resources, e.g., cell phones.</p>
 
@@ -481,7 +481,7 @@ In this project, we want to build a cloth simulator in a nonlinear subspace to r
 
 <p>In our project, we propose to combine GCNN based neural network embedding [8] and subspace integration to capture more details of cloth deformation while allowing full freedom to control the cloth simulation.</p>
 
-<h2 id="related-work">Related Work</h2>
+<h2 id="related-work"><strong>Related Work</strong></h2>
 
 <p>We will briefly discuss previous works in this section.</p>
 
@@ -494,13 +494,12 @@ In this project, we want to build a cloth simulator in a nonlinear subspace to r
 <p><strong>Frame Predictor</strong><br />
 [6, 7] use machine learning methods to model the simulation process of cloth. Use linear regression or neural network-based method to predict the next frame given control parameters and previous few frames. These methods can be very quick since they do not require heavy computation of the physics model. However, this scheme can easily let the system be overfitted on training data, and it would behave badly on the new unseen control information, as we will show in the result section. So we stick to model the physics law explicitly.</p>
 
-<h2 id="proposed-method">Proposed Method</h2>
+<h2 id="proposed-method"><strong>Proposed Method</strong></h2>
 
-<p><strong>GCNN-based Embedding</strong></p>
+<p><strong>GCNN-based Embedding</strong><br />
+In this section, we provide an overview of low-dimensional embedding of the cloth meshes. Our goal is to obtain a subspace through a set of $N$ deformed cloth meshes, $S_m$, with each mesh represented using a set of $K$ vertices, denoted as $\mathbf{p}_m\in\mathbb{R}^{3K}$.</p>
 
-<p>In this section, we provide an overview of low-dimensional embedding of the cloth meshes. Our goal is to obtain a subspace through a set of $N$ deformed cloth meshes, $S_m$, with each mesh represented using a set of $K$ vertices, denoted as $\mathbf{p}_m\in\mathbb{R}^{3K}$.</p>
-
-<p>We denote the $i$th vertex as $\mathbf{p}_{m,i}\in\mathbb{R}^3$. Here $m=1,\cdots,N$ and $i=1,\cdots,K$. These vertices are connected by edges, so we can define the 1-ring neighbor set, $\mathcal{N}^1_i$, and the 2-ring neighbor set, $\mathcal{N}^2_i$, for each $\mathbf{p}_i$. Our goal is to find a map $\mathbf{z}\to\mathbf{p}$, where $\mathbf{z}$ is a low-dimensional feature and $\mathbf{p}\in\mathbf{R}^{3K}$ such that, for each $m$, there exists a $\mathbf{z}_m$ where $\mathbf{z}_m$ is mapped to a mesh close to $\mathbf{p}_m$. To define such a function $\mathbf{D}$, we use graph-based CNN and ACAP features [8] to represent large-scale deformations.</p>
+<p>We denote the $i$th vertex as $\mathbf{p}_{m,i}\in\mathbb{R}^3$. Here $m=1,\cdots,N$ and $i=1,\cdots,K$. These vertices are connected by edges, so we can define the 1-ring neighbor set, $\mathcal{N}^1_i$, and the 2-ring neighbor set, $\mathcal{N}^2_i$, for each $\mathbf{p}_i$. Our goal is to find a map $\mathbf{z}\to\mathbf{p}$, where $\mathbf{z}$ is a low-dimensional feature and $\mathbf{p}\in\mathbf{R}^{3K}$ such that, for each $m$, there exists a $\mathbf{z}_m$ where $\mathbf{z}_m$ is mapped to a mesh close to $\mathbf{p}_m$. To define such a function $\mathbf{D}$, we use graph-based CNN and ACAP features [9] to represent large-scale deformations.</p>
 
 <p>We define $\mathbf{D}$ as a graph-based CNN using local filters
 $$
@@ -510,17 +509,111 @@ where $L$ is the number of convolutional layers and $\mathbf{C}^T$ is the transp
 
 <p>A graph-based convolutional layer is a linear operator defined as:
 $$
-\mathbf{C}(\mathbf{x})_i = \mathbf{W}\mathbf{x}_i+\mathbf{W_N}(\Sigma_j\mathbf{x}_j)/N_i + b
+\mathbf{C}(\mathbf{x})_i = \mathbf{W}\mathbf{x}_i+\mathbf{W_N}(\Sigma_j\mathbf{x}_j)/N_i + b,
 $$
 where $\mathbf{W},\mathbf{W_N}, b$ are optimizable weights and biases, respectively; $j$ is the index of neighbors of $i$ and $N_i$ is the degree of vertex $i$.</p>
 
+<p>The following figure shows the network architecture:</p>
+
+<p><img src="/img/NN.jpg" alt="" /></p>
+
 <p>All the weights in the CNN are trained in a self-supervised manner using an autoencoder and a reconstruction loss in ACAP feature and physical-inspired loss mentioned in the later section.</p>
 
-<p><strong>Model the Physics of Cloth Deformation</strong></p>
+<p><strong>Model the Physics of Cloth Deformation in Subspace</strong><br />
+We assumes that cloth sequence could be  generated using a physics simulator that solves a continuous-time PDE of the form:
+\begin{align}
+\mathbf{M}\frac{\partial \mathbf{p}}{\partial t}=-\mathbf{force}(\mathbf{p},\mathbf{q}),
+\end{align}
+where $\mathbf{M}$ is the mass matrix and $t$ is the time. $\mathbf{force}(\mathbf{p},\mathbf{q})$ models internal and external forces affecting the current mesh $\mathbf{p}$. The force is also a function of the current control parameters $\mathbf{q}$. This continuous-time PDE can be discretized into $N$ timesteps such that $S_m$ is the position of the cloth at time instance $i\Delta t$, where $\Delta t$ is the timestep size. A discrete physics simulator can determine all $\mathbf{p}_m$ given the initial condition $\mathbf{p}_1,\mathbf{p}_2$ and the sequence of control parameters $\mathbf{q}_1,\mathbf{q}_2,\cdots,\mathbf{q}_N$ by the recurrent function:
+<img src="/img/eq1.png" alt="" />
+where $f$ is a discretization of the continuous-time PDE. To define this discretization, we reformulates $f$ as the following optimization:
+<img src="/img/eq2.png" alt="" />
+Here the first term models the kinematic energy, which requires each vertex to move in its own velocity as much as possible if no external forces are exerted. The second term models forces caused by various potential energies at configuration $\mathbf{p}$. In this work, we consider three kinds of potential energy:</p>
 
-<h2 id="experimental-results">Experimental Results</h2>
+<ul>
+<li>Gravitational energy $\mathcal{P}_g(\mathbf{p})=-\sum_i\mathbf{g}^T\mathbf{M}\mathbf{p}_i$, where $\mathbf{g}$ is the gravitational acceleration vector.</li>
+<li>Stretch resistance energy, $\mathcal{P}_s$, models the potential force induced by stretching the material.</li>
+<li>Bending resistance energy, $\mathcal{P}_b$, models the potential force induced by bending the material.</li>
+</ul>
 
-<h2 id="conclusion">Conclusion</h2>
+<p>There are many ways to discretize $\mathcal{P}_s,\mathcal{P}_b$, such as the finite element method used in [2] or the mass-spring model used in [1]. Both formulations are evaluated in this work.</p>
+
+<ul>
+<li>[1] models the stretch resistance term, $\mathcal{P}_s$, as a set of Hooke&rsquo;s springs between each vertex and vertices in its 1-ring neighbors. In addition, the bend resistance term, $\mathcal{P}_b$, is defined as another set of Hooke&rsquo;s springs between each vertex and vertices in its 2-ring neighbors.</li>
+<li>[2] models the stretch resistance term, $\mathcal{P}_s$, as a linear elastic energy resisting the in-plane deformations of each mesh triangle. In addition, the bend resistance term, $\mathcal{P}_b$, is defined as a quadratic penalty term resisting the change of the dihedral angle between any pair of two neighboring triangles.</li>
+</ul>
+
+<p>We use the physical term defined for the optimization problem for training the autoencoder. This should improve the accuracy of the embedded shapes.</p>
+
+<p>After the training of the autoencoder, we get the subspace of the cloth models, and the mapping $\mathbf{p} = \mathbf{D}(\mathbf{z})$, we can rewrite the optimization problem as
+<img src="/img/eq3.png" alt="" />
+Using the new optimization problem, we can reduce the search space, and accelerate the process of cloth simulation.</p>
+
+<h2 id="implementation"><strong>Implementation</strong></h2>
+
+<p>We build the neural network with the TensorFlow package and implemented the mass-spring model and FEM with C++ customized TensorFlow operation. We use the optimization method from the Scipy package to run the cloth simulation. Specifically, we use the L-BGFS-B method.</p>
+
+<h2 id="experimental-results"><strong>Experimental Results</strong></h2>
+
+<p><strong>Embedding Comparison</strong><br />
+We first compare the reconstruction ability of our subspace with previous methods. In this experiment, we create 2 sequences using [1] with $N=2400$ frames. The first sequence has $K=4224$ vertices with no holes, while the second sequence has $K=4165$ vertices with holes. During the comparison, for each dataset, we select the first 12 frames in every 17 frames to form the training set. The other frames are used as the test set. We compare several metrics: 1) the root mean square error, $\mathcal{M}$<sub>rms</sub>; 2) the STED metric, $\mathcal{M}$<sub>STED</sub>, measuring the visual quality; 3) the physical metric, $\mathcal{M}$<sub>phys</sub>, measuring the norm of partial derivatives of $\mathcal{L}_{phys}$. The results are shown in the following table:
+<img src="/img/table.png" alt="" /></p>
+
+<p>These suggest that our method using GCNN backbone network with physical-inspired loss can better capture the deformation of cloth.</p>
+
+<p><strong>New Control Parameter Comparison</strong><br />
+We claim in the previous section that previous methods using frame predictor such as [7] could not generalize on new control parameters well, here we give an example:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/ckX0NKs-uIg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p>The generated sequence is unstable and has clear drawbacks on the four corners.</p>
+
+<p>Meanwhile, since our method directly models the physical terms behind cloth deformation, it can perform well in this situation:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/b_Agzln2qWw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p><strong>Different Topology</strong><br />
+We show an example of cloth with holes:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/6IoxsE7JdVE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p><strong>FEM-based Results</strong><br />
+We show an example using FEM to model the potential energy:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/tE4UZ3trZBA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<h2 id="conclusion"><strong>Conclusion</strong></h2>
+
+<p>In sum, in this project,</p>
+
+<ul>
+<li>we build a non-linear GCNN-based subspace simulator for cloth deformation;</li>
+<li>we include different physics modeling methods, the mass-spring system, and FEM.</li>
+</ul>
+
+<p>Due to time limitation, the system still has some drawbacks, we want to improve the work in the following ways:</p>
+
+<ul>
+<li>we want to move full computation to GPU, to accelerate the simulation process;</li>
+<li>we want to use more accurate optimization method, right now we only use a quasi-Newton method;</li>
+<li>we want to add collision detection in the whole pipeline, maybe still through data-driven methods.</li>
+</ul>
 
 <p><strong>References</strong><br />
 [1] K.-J. Choi and H.-S. Ko, “Stable but responsive cloth,” in SIGGRAPH 2002.<br />
@@ -530,35 +623,8 @@ where $\mathbf{W},\mathbf{W_N}, b$ are optimizable weights and biases, respectiv
 [5] L. Fulton, V. Modi, D. Duvenaud, D. I. W. Levin, and A. Jacobson, “Latent-space dynamics for reduced deformable simulation,” Computer Graphics Forum, 2019.<br />
 [6] E. De Aguiar, L. Sigal, A. Treuille, and J. K. Hodgins, “Stable spaces for real-time clothing,” ACM TOG, 2010.<br />
 [7] D. Holden, B. C. Duong, S. Datta, and D. Nowrouzezahrai, “Subspace neural physics: fast data-driven interactive simulation,” in Proceedings of the 18th annual ACM SIGGRAPH/Eurographics Symposium on Computer Animation. ACM, 2019.<br />
-[8] Q. Tan, Z. Pan, L. Gao, and D. Manocha, “Realtime simulation of thin-shell deformable materials using cnn-based mesh embedding,” arXiv preprint arXiv:1909.12354, 2019.</p>
-
-<p>new control ours
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/b_Agzln2qWw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-</p>
-
-<p>new control predictor
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/ckX0NKs-uIg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-</p>
-
-<p>hole
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/6IoxsE7JdVE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-</p>
-
-<p>fem
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/tE4UZ3trZBA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-</p>
+[8] Q. Tan, Z. Pan, L. Gao, and D. Manocha, “Realtime simulation of thin-shell deformable materials using cnn-based mesh embedding,” arXiv preprint arXiv:1909.12354, 2019.<br />
+[9] L. Gao, Y.-K. Lai, J. Yang, L.-X. Zhang, L. Kobbelt, and S. Xia, “Sparse Data Driven Mesh Deformation,” IEEE TVCG, 2019.</p>
 
     </div>
 
