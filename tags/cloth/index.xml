@@ -5,12 +5,20 @@
     <link>/tags/cloth/</link>
       <atom:link href="/tags/cloth/index.xml" rel="self" type="application/rss+xml" />
     <description>Cloth</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Cloth</title>
       <link>/tags/cloth/</link>
     </image>
+    
+    <item>
+      <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>
+      <link>/publication/cloth_embedding/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/cloth_embedding/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Nonlinear Subspace Cloth Simulation</title>
@@ -178,14 +186,6 @@ We show an example using FEM to model the potential energy:&lt;/p&gt;
 [8] Q. Tan, Z. Pan, L. Gao, and D. Manocha, “Realtime simulation of thin-shell deformable materials using cnn-based mesh embedding,” arXiv preprint arXiv:1909.12354, 2019.&lt;br /&gt;
 [9] L. Gao, Y.-K. Lai, J. Yang, L.-X. Zhang, L. Kobbelt, and S. Xia, “Sparse Data Driven Mesh Deformation,” IEEE TVCG, 2019.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>
-      <link>/publication/cloth_embedding/</link>
-      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/cloth_embedding/</guid>
-      <description></description>
     </item>
     
   </channel>

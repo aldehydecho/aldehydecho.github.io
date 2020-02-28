@@ -5,7 +5,7 @@
     <link>/authors/zherong-pan/</link>
       <atom:link href="/authors/zherong-pan/index.xml" rel="self" type="application/rss+xml" />
     <description>Zherong Pan</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Thu, 26 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Zherong Pan</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>
       <link>/publication/cloth_embedding/</link>
-      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/publication/cloth_embedding/</guid>
       <description></description>
     </item>

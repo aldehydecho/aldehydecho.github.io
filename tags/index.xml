@@ -5,7 +5,7 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Tue, 17 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
@@ -15,8 +15,16 @@
     <item>
       <title>Cloth</title>
       <link>/tags/cloth/</link>
-      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/tags/cloth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mesh Embedding</title>
+      <link>/tags/mesh-embedding/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/tags/mesh-embedding/</guid>
       <description></description>
     </item>
     
@@ -25,14 +33,6 @@
       <link>/tags/planning/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/tags/planning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mesh Embedding</title>
-      <link>/tags/mesh-embedding/</link>
-      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/mesh-embedding/</guid>
       <description></description>
     </item>
     

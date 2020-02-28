@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;I am Qingyang Tan. I am a Ph.D. student at &lt;a href=&#34;http://www.cs.umd.edu/&#34; target=&#34;_blank&#34;&gt;University of Maryland, College Park&lt;/a&gt;. I received the B.Eng. degree in Computer Science and Technology from &lt;a href=&#34;http://english.ucas.ac.cn/&#34; target=&#34;_blank&#34;&gt;University of Chinese Academy of Sciences&lt;/a&gt;.&lt;/p&gt;
 
@@ -30,8 +30,24 @@
     <item>
       <title>Dinesh Manocha</title>
       <link>/authors/dinesh-manocha/</link>
-      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/authors/dinesh-manocha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lin Gao</title>
+      <link>/authors/lin-gao/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/lin-gao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zherong Pan</title>
+      <link>/authors/zherong-pan/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/zherong-pan/</guid>
       <description></description>
     </item>
     
@@ -48,22 +64,6 @@
       <link>/authors/tingxiang-fan/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/authors/tingxiang-fan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lin Gao</title>
-      <link>/authors/lin-gao/</link>
-      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/lin-gao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zherong Pan</title>
-      <link>/authors/zherong-pan/</link>
-      <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/zherong-pan/</guid>
       <description></description>
     </item>
     
