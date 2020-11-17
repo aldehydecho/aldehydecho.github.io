@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>QINGYANG TAN</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>QINGYANG TAN</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>LCollision: Fast Generation of Collision-Free Human Poses using Learned Non-Penetration Constraints</title>
+      <link>/publication/collision_prediction/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/collision_prediction/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DeepMNavigate: Deep Reinforced Multi-Robot Navigation Unifying Local &amp; Global Collision</title>
