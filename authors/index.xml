@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,28 +15,46 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am Qingyang Tan, a graduate student at the &lt;a href=&#34;http://www.cs.umd.edu/&#34; target=&#34;_blank&#34;&gt;University of Maryland, College Park&lt;/a&gt; advised by &lt;a href=&#34;https://www.cs.umd.edu/people/dmanocha&#34; target=&#34;_blank&#34;&gt;Prof. Dinesh Manocha&lt;/a&gt;. I received the B.Eng. degree in Computer Science and Technology from the &lt;a href=&#34;http://english.ucas.ac.cn/&#34; target=&#34;_blank&#34;&gt;University of Chinese Academy of Sciences&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;I am Qingyang Tan, a Ph.D. student at the &lt;a href=&#34;http://www.cs.umd.edu/&#34; target=&#34;_blank&#34;&gt;University of Maryland, College Park&lt;/a&gt; advised by &lt;a href=&#34;https://www.cs.umd.edu/people/dmanocha&#34; target=&#34;_blank&#34;&gt;Prof. Dinesh Manocha&lt;/a&gt;. I received the B.Eng. degree in Computer Science and Technology from the &lt;a href=&#34;http://english.ucas.ac.cn/&#34; target=&#34;_blank&#34;&gt;University of Chinese Academy of Sciences&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I have interned in Facebook Reality Lab advised by &lt;a href=&#34;https://sites.google.com/view/takaaki-shiratori/home&#34; target=&#34;_blank&#34;&gt;Dr. Takaaki Shiratori&lt;/a&gt; and &lt;a href=&#34;https://breannansmith.com/&#34; target=&#34;_blank&#34;&gt;Dr. Breannan Smith&lt;/a&gt;. I conducted my undegraduate thesis in &lt;a href=&#34;http://vipl.ict.ac.cn/&#34; target=&#34;_blank&#34;&gt;VIPL Group&lt;/a&gt; at the &lt;a href=&#34;http://english.ict.cas.cn/&#34; target=&#34;_blank&#34;&gt;Institute of Computing Technology (ICT)&lt;/a&gt;, &lt;a href=&#34;http://english.cas.cn/&#34; target=&#34;_blank&#34;&gt;Chinese Academy of Sciences (CAS)&lt;/a&gt;, under the supervision of &lt;a href=&#34;http://vipl.ict.ac.cn/view_people.php?url=xlchen&amp;amp;id=13&#34; target=&#34;_blank&#34;&gt;Prof. Xilin Chen&lt;/a&gt; and &lt;a href=&#34;http://vipl.ict.ac.cn/view_people.php?url=&amp;amp;id=48&#34; target=&#34;_blank&#34;&gt;Prof. Xiujuan Chai&lt;/a&gt;. Before that, I interned in &lt;a href=&#34;http://humanmotion.ict.ac.cn/en/index.html&#34; target=&#34;_blank&#34;&gt;Human Motion Research Group&lt;/a&gt; at ICT, CAS, supervised by &lt;a href=&#34;http://geometrylearning.com/lin/&#34; target=&#34;_blank&#34;&gt;Prof. Lin Gao&lt;/a&gt;, &lt;a href=&#34;http://users.cs.cf.ac.uk/Yukun.Lai/&#34; target=&#34;_blank&#34;&gt;Prof. Yu-Kun Lai&lt;/a&gt; and &lt;a href=&#34;http://humanmotion.ict.ac.cn/en/people/xiashihong.html&#34; target=&#34;_blank&#34;&gt;Prof. Shihong Xia&lt;/a&gt;. I also have serveral research experiences in interdisciplinary science, including UROP projects in &lt;a href=&#34;http://imes.mit.edu/&#34; target=&#34;_blank&#34;&gt;Institute of Medical Engineering &amp;amp; Science&lt;/a&gt; and &lt;a href=&#34;http://mitsloan.mit.edu/&#34; target=&#34;_blank&#34;&gt;MIT Sloan School of Management&lt;/a&gt; of &lt;a href=&#34;web.mit.edu&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt;, and &lt;a href=&#34;http://2016.igem.org/Team:UCAS&#34; target=&#34;_blank&#34;&gt;synthetic biology project&lt;/a&gt; for the &lt;a href=&#34;http://igem.org/Main_Page&#34; target=&#34;_blank&#34;&gt;International Genetically Engineered Machine (iGEM) competition&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In 2021 summer, I interned in Adobe Research, advised by &lt;a href=&#34;https://zhouyisjtu.github.io/&#34; target=&#34;_blank&#34;&gt;Dr. Yi Zhou&lt;/a&gt;, &lt;a href=&#34;https://tuanfeng.github.io/&#34; target=&#34;_blank&#34;&gt;Dr. Tuanfeng Y. Wang&lt;/a&gt;, &lt;a href=&#34;http://www.duygu-ceylan.com/&#34; target=&#34;_blank&#34;&gt;Dr. Duygu Ceylan&lt;/a&gt; and &lt;a href=&#34;https://scholar.google.com/citations?user=m3kAqRQAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Dr. Xin Sun&lt;/a&gt;. In 2020 summer, I interned in Facebook Reality Lab advised by &lt;a href=&#34;https://sites.google.com/view/takaaki-shiratori/home&#34; target=&#34;_blank&#34;&gt;Dr. Takaaki Shiratori&lt;/a&gt; and &lt;a href=&#34;https://breannansmith.com/&#34; target=&#34;_blank&#34;&gt;Dr. Breannan Smith&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I conducted my undegraduate thesis in &lt;a href=&#34;http://vipl.ict.ac.cn/&#34; target=&#34;_blank&#34;&gt;VIPL Group&lt;/a&gt; at the &lt;a href=&#34;http://english.ict.cas.cn/&#34; target=&#34;_blank&#34;&gt;Institute of Computing Technology (ICT)&lt;/a&gt;, &lt;a href=&#34;http://english.cas.cn/&#34; target=&#34;_blank&#34;&gt;Chinese Academy of Sciences (CAS)&lt;/a&gt;, under the supervision of &lt;a href=&#34;http://vipl.ict.ac.cn/view_people.php?url=xlchen&amp;amp;id=13&#34; target=&#34;_blank&#34;&gt;Prof. Xilin Chen&lt;/a&gt; and &lt;a href=&#34;http://vipl.ict.ac.cn/view_people.php?url=&amp;amp;id=48&#34; target=&#34;_blank&#34;&gt;Prof. Xiujuan Chai&lt;/a&gt;. Before that, I interned in &lt;a href=&#34;http://humanmotion.ict.ac.cn/en/index.html&#34; target=&#34;_blank&#34;&gt;Human Motion Research Group&lt;/a&gt; at ICT, CAS, supervised by &lt;a href=&#34;http://geometrylearning.com/lin/&#34; target=&#34;_blank&#34;&gt;Prof. Lin Gao&lt;/a&gt;, &lt;a href=&#34;http://users.cs.cf.ac.uk/Yukun.Lai/&#34; target=&#34;_blank&#34;&gt;Prof. Yu-Kun Lai&lt;/a&gt; and &lt;a href=&#34;http://humanmotion.ict.ac.cn/en/people/xiashihong.html&#34; target=&#34;_blank&#34;&gt;Prof. Shihong Xia&lt;/a&gt;. I also have serveral research experiences in interdisciplinary science, including UROP projects in &lt;a href=&#34;http://imes.mit.edu/&#34; target=&#34;_blank&#34;&gt;Institute of Medical Engineering &amp;amp; Science&lt;/a&gt; and &lt;a href=&#34;http://mitsloan.mit.edu/&#34; target=&#34;_blank&#34;&gt;MIT Sloan School of Management&lt;/a&gt; of &lt;a href=&#34;web.mit.edu&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt;, and &lt;a href=&#34;http://2016.igem.org/Team:UCAS&#34; target=&#34;_blank&#34;&gt;synthetic biology project&lt;/a&gt; for the &lt;a href=&#34;http://igem.org/Main_Page&#34; target=&#34;_blank&#34;&gt;International Genetically Engineered Machine (iGEM) competition&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here is my &lt;a href=&#34;files/Qingyang_Tan_Resume.pdf&#34; target=&#34;_blank&#34;&gt;resume&lt;/a&gt;. Please feel free to &lt;a href=&#34;mailto:qytan@outlook.com&#34; target=&#34;_blank&#34;&gt;contact me&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
+      <title>Breannan Smith</title>
+      <link>/authors/breannan-smith/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/breannan-smith/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dinesh Manocha</title>
       <link>/authors/dinesh-manocha/</link>
-      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
       <guid>/authors/dinesh-manocha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Takaaki Shiratori</title>
+      <link>/authors/takaaki-shiratori/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/takaaki-shiratori/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zherong Pan</title>
       <link>/authors/zherong-pan/</link>
-      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
       <guid>/authors/zherong-pan/</guid>
       <description></description>
     </item>

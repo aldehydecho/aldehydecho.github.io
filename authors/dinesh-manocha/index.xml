@@ -5,12 +5,20 @@
     <link>/authors/dinesh-manocha/</link>
       <atom:link href="/authors/dinesh-manocha/index.xml" rel="self" type="application/rss+xml" />
     <description>Dinesh Manocha</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Dinesh Manocha</title>
       <link>/authors/dinesh-manocha/</link>
     </image>
+    
+    <item>
+      <title>Active Learning of Neural Collision Handler for Complex 3D Mesh Deformations</title>
+      <link>/publication/collision_active_learning/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/collision_active_learning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>LCollision: Fast Generation of Collision-Free Human Poses using Learned Non-Penetration Constraints</title>
