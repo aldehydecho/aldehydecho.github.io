@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Qingyang Tan</copyright><lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -60,6 +60,54 @@
     </item>
     
     <item>
+      <title>Jie Yang</title>
+      <link>/authors/jie-yang/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/jie-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lin Gao</title>
+      <link>/authors/lin-gao/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/lin-gao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shihong Xia</title>
+      <link>/authors/shihong-xia/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/shihong-xia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yi-Hua Huang</title>
+      <link>/authors/yi-hua-huang/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/yi-hua-huang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yu-Kun Lai</title>
+      <link>/authors/yu-kun-lai/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/yu-kun-lai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ling-Xiao Zhang</title>
+      <link>/authors/ling-xiao-zhang/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/ling-xiao-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jia Pan</title>
       <link>/authors/jia-pan/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
@@ -76,30 +124,6 @@
     </item>
     
     <item>
-      <title>Lin Gao</title>
-      <link>/authors/lin-gao/</link>
-      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/lin-gao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shihong Xia</title>
-      <link>/authors/shihong-xia/</link>
-      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/shihong-xia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yu-Kun Lai</title>
-      <link>/authors/yu-kun-lai/</link>
-      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/yu-kun-lai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Xilin Chen</title>
       <link>/authors/xilin-chen/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
@@ -112,14 +136,6 @@
       <link>/authors/xiujuan-chai/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
       <guid>/authors/xiujuan-chai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jie Yang</title>
-      <link>/authors/jie-yang/</link>
-      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/jie-yang/</guid>
       <description></description>
     </item>
     

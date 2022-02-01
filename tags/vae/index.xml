@@ -5,12 +5,20 @@
     <link>/tags/vae/</link>
       <atom:link href="/tags/vae/index.xml" rel="self" type="application/rss+xml" />
     <description>VAE</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Tue, 19 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Qingyang Tan</copyright><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>VAE</title>
       <link>/tags/vae/</link>
     </image>
+    
+    <item>
+      <title>Variational Autoencoders for Localized Mesh Deformation Component Analysis</title>
+      <link>/publication/vaesparse/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/vaesparse/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Variational Autoencoders for Deforming 3D Mesh Models</title>

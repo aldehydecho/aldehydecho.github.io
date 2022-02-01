@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yi-Hua Huang | QINGYANG TAN</title>
+    <link>/authors/yi-hua-huang/</link>
+      <atom:link href="/authors/yi-hua-huang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yi-Hua Huang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Qingyang Tan</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Yi-Hua Huang</title>
+      <link>/authors/yi-hua-huang/</link>
+    </image>
+    
+    <item>
+      <title>Multiscale Mesh Deformation Component Analysis with Attention-based Autoencoders</title>
+      <link>/publication/multiscale/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/multiscale/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

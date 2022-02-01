@@ -5,12 +5,28 @@
     <link>/authors/lin-gao/</link>
       <atom:link href="/authors/lin-gao/index.xml" rel="self" type="application/rss+xml" />
     <description>Lin Gao</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Qingyang Tan</copyright><lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Qingyang Tan</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Lin Gao</title>
       <link>/authors/lin-gao/</link>
     </image>
+    
+    <item>
+      <title>Multiscale Mesh Deformation Component Analysis with Attention-based Autoencoders</title>
+      <link>/publication/multiscale/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/multiscale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variational Autoencoders for Localized Mesh Deformation Component Analysis</title>
+      <link>/publication/vaesparse/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/vaesparse/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>

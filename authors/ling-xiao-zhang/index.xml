@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ling-Xiao Zhang | QINGYANG TAN</title>
+    <link>/authors/ling-xiao-zhang/</link>
+      <atom:link href="/authors/ling-xiao-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ling-Xiao Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Qingyang Tan</copyright><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Ling-Xiao Zhang</title>
+      <link>/authors/ling-xiao-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Variational Autoencoders for Localized Mesh Deformation Component Analysis</title>
+      <link>/publication/vaesparse/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/vaesparse/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
