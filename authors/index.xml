@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Qingyang Tan</copyright><lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Qingyang Tan</copyright><lastBuildDate>Sat, 25 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,9 +15,9 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am Qingyang Tan, a Ph.D. student at the &lt;a href=&#34;http://www.cs.umd.edu/&#34; target=&#34;_blank&#34;&gt;University of Maryland, College Park&lt;/a&gt; advised by &lt;a href=&#34;https://www.cs.umd.edu/people/dmanocha&#34; target=&#34;_blank&#34;&gt;Prof. Dinesh Manocha&lt;/a&gt;. I received the B.Eng. degree in Computer Science and Technology from the &lt;a href=&#34;http://english.ucas.ac.cn/&#34; target=&#34;_blank&#34;&gt;University of Chinese Academy of Sciences&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;I am Qingyang Tan, a Ph.D. candidate at the &lt;a href=&#34;http://www.cs.umd.edu/&#34; target=&#34;_blank&#34;&gt;University of Maryland, College Park&lt;/a&gt; advised by &lt;a href=&#34;https://www.cs.umd.edu/people/dmanocha&#34; target=&#34;_blank&#34;&gt;Prof. Dinesh Manocha&lt;/a&gt;. I received the B.Eng. degree in Computer Science and Technology from the &lt;a href=&#34;http://english.ucas.ac.cn/&#34; target=&#34;_blank&#34;&gt;University of Chinese Academy of Sciences&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;In 2021 summer, I interned in Adobe Research, advised by &lt;a href=&#34;https://zhouyisjtu.github.io/&#34; target=&#34;_blank&#34;&gt;Dr. Yi Zhou&lt;/a&gt;, &lt;a href=&#34;https://tuanfeng.github.io/&#34; target=&#34;_blank&#34;&gt;Dr. Tuanfeng Y. Wang&lt;/a&gt;, &lt;a href=&#34;http://www.duygu-ceylan.com/&#34; target=&#34;_blank&#34;&gt;Dr. Duygu Ceylan&lt;/a&gt; and &lt;a href=&#34;https://scholar.google.com/citations?user=m3kAqRQAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Dr. Xin Sun&lt;/a&gt;. In 2020 summer, I interned in Facebook Reality Lab advised by &lt;a href=&#34;https://sites.google.com/view/takaaki-shiratori/home&#34; target=&#34;_blank&#34;&gt;Dr. Takaaki Shiratori&lt;/a&gt; and &lt;a href=&#34;https://breannansmith.com/&#34; target=&#34;_blank&#34;&gt;Dr. Breannan Smith&lt;/a&gt;.&lt;/p&gt;
 
@@ -30,7 +30,7 @@
     <item>
       <title>Breannan Smith</title>
       <link>/authors/breannan-smith/</link>
-      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/authors/breannan-smith/</guid>
       <description></description>
     </item>
@@ -38,7 +38,7 @@
     <item>
       <title>Dinesh Manocha</title>
       <link>/authors/dinesh-manocha/</link>
-      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/authors/dinesh-manocha/</guid>
       <description></description>
     </item>
@@ -46,7 +46,7 @@
     <item>
       <title>Takaaki Shiratori</title>
       <link>/authors/takaaki-shiratori/</link>
-      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/authors/takaaki-shiratori/</guid>
       <description></description>
     </item>
@@ -54,7 +54,7 @@
     <item>
       <title>Zherong Pan</title>
       <link>/authors/zherong-pan/</link>
-      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
       <guid>/authors/zherong-pan/</guid>
       <description></description>
     </item>
