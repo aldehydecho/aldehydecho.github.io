@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/3/</loc>
+    <loc>/publication_types/1/</loc>
     <lastmod>2022-06-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -128,11 +128,6 @@
   </url>
   
   <url>
-    <loc>/publication_types/1/</loc>
-    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/collision_prediction/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
@@ -185,6 +180,11 @@
   <url>
     <loc>/publication/vae/</loc>
     <lastmod>2018-06-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/3/</loc>
+    <lastmod>2018-05-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
