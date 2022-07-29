@@ -5,12 +5,20 @@
     <link>/tags/cloth-simulation/</link>
       <atom:link href="/tags/cloth-simulation/index.xml" rel="self" type="application/rss+xml" />
     <description>Cloth Simulation</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Qingyang Tan</copyright><lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Qingyang Tan</copyright><lastBuildDate>Thu, 28 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Cloth Simulation</title>
       <link>/tags/cloth-simulation/</link>
     </image>
+    
+    <item>
+      <title>A Repulsive Force Unit for Garment Collision Handling in Neural Networks</title>
+      <link>/publication/refu/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/refu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</title>

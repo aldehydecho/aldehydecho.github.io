@@ -37,10 +37,10 @@
   
     
   
-  <meta name="description" content="We present a robust learning algorithm to detect and handle collisions in 3D deforming meshes. We first train a neural network to detect collisions and then use a numerical optimization algorithm to resolve penetrations guided by the network. To obtain stable network performance in such large and unseen spaces, we apply active learning by progressively inserting new collision data based on the network inferences. We automatically label these new data using an analytical collision detector and progressively fine-tune our detection networks.">
+  <meta name="description" content="Despite recent success, deep learning-based methods for predicting 3D garment deformation under body motion suffer from interpenetration problems between the garment and the body. To address this problem, we propose a novel collision handling neural network layer called Repulsive Force Unit (ReFU). Based on the signed distance function (SDF) of the underlying body and the current garment vertex positions, ReFU predicts the per-vertex offsets that push any interpenetrating vertex to a collision-free configuration while preserving the fine geometric details. We show that ReFU is differentiable with trainable parameters and can be integrated into different network backbones that predict 3D garment deformations. Our experiments show that ReFU significantly reduces the number of collisions between the body and the garment and better preserves geometric details compared to prior methods based on collision loss or post-processing optimization.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/collision_active_learning/">
+  <link rel="alternate" hreflang="en-us" href="/publication/refu/">
 
   
 
@@ -104,7 +104,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/publication/collision_active_learning/">
+  <link rel="canonical" href="/publication/refu/">
 
   
   
@@ -116,15 +116,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="QINGYANG TAN">
-  <meta property="og:url" content="/publication/collision_active_learning/">
-  <meta property="og:title" content="N-Penetrate: Active Learning of Neural Collision Handler for Complex 3D Mesh Deformations | QINGYANG TAN">
-  <meta property="og:description" content="We present a robust learning algorithm to detect and handle collisions in 3D deforming meshes. We first train a neural network to detect collisions and then use a numerical optimization algorithm to resolve penetrations guided by the network. To obtain stable network performance in such large and unseen spaces, we apply active learning by progressively inserting new collision data based on the network inferences. We automatically label these new data using an analytical collision detector and progressively fine-tune our detection networks."><meta property="og:image" content="/publication/collision_active_learning/featured.png">
-  <meta property="twitter:image" content="/publication/collision_active_learning/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/publication/refu/">
+  <meta property="og:title" content="A Repulsive Force Unit for Garment Collision Handling in Neural Networks | QINGYANG TAN">
+  <meta property="og:description" content="Despite recent success, deep learning-based methods for predicting 3D garment deformation under body motion suffer from interpenetration problems between the garment and the body. To address this problem, we propose a novel collision handling neural network layer called Repulsive Force Unit (ReFU). Based on the signed distance function (SDF) of the underlying body and the current garment vertex positions, ReFU predicts the per-vertex offsets that push any interpenetrating vertex to a collision-free configuration while preserving the fine geometric details. We show that ReFU is differentiable with trainable parameters and can be integrated into different network backbones that predict 3D garment deformations. Our experiments show that ReFU significantly reduces the number of collisions between the body and the garment and better preserves geometric details compared to prior methods based on collision loss or post-processing optimization."><meta property="og:image" content="/publication/refu/featured.jpg">
+  <meta property="twitter:image" content="/publication/refu/featured.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2022-07-17T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2022-07-28T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2022-07-17T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-07-28T00:00:00&#43;00:00">
   
 
   
@@ -148,16 +148,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/collision_active_learning/"
+    "@id": "/publication/refu/"
   },
-  "headline": "N-Penetrate: Active Learning of Neural Collision Handler for Complex 3D Mesh Deformations",
+  "headline": "A Repulsive Force Unit for Garment Collision Handling in Neural Networks",
   
   "image": [
-    "/publication/collision_active_learning/featured.png"
+    "/publication/refu/featured.jpg"
   ],
   
-  "datePublished": "2022-07-17T00:00:00Z",
-  "dateModified": "2022-07-17T00:00:00Z",
+  "datePublished": "2022-07-28T00:00:00Z",
+  "dateModified": "2022-07-28T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -172,7 +172,7 @@
       "url": "/img/icon-512.png"
     }
   },
-  "description": "We present a robust learning algorithm to detect and handle collisions in 3D deforming meshes. We first train a neural network to detect collisions and then use a numerical optimization algorithm to resolve penetrations guided by the network. To obtain stable network performance in such large and unseen spaces, we apply active learning by progressively inserting new collision data based on the network inferences. We automatically label these new data using an analytical collision detector and progressively fine-tune our detection networks."
+  "description": "Despite recent success, deep learning-based methods for predicting 3D garment deformation under body motion suffer from interpenetration problems between the garment and the body. To address this problem, we propose a novel collision handling neural network layer called Repulsive Force Unit (ReFU). Based on the signed distance function (SDF) of the underlying body and the current garment vertex positions, ReFU predicts the per-vertex offsets that push any interpenetrating vertex to a collision-free configuration while preserving the fine geometric details. We show that ReFU is differentiable with trainable parameters and can be integrated into different network backbones that predict 3D garment deformations. Our experiments show that ReFU significantly reduces the number of collisions between the body and the garment and better preserves geometric details compared to prior methods based on collision loss or post-processing optimization."
 }
 </script>
 
@@ -190,7 +190,7 @@
 
 
 
-  <title>N-Penetrate: Active Learning of Neural Collision Handler for Complex 3D Mesh Deformations | QINGYANG TAN</title>
+  <title>A Repulsive Force Unit for Garment Collision Handling in Neural Networks | QINGYANG TAN</title>
 
 </head>
 
@@ -411,7 +411,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>N-Penetrate: Active Learning of Neural Collision Handler for Complex 3D Mesh Deformations</h1>
+  <h1>A Repulsive Force Unit for Garment Collision Handling in Neural Networks</h1>
 
   
 
@@ -430,7 +430,7 @@
 
 
   
-  <span>Qingyang Tan</span>, <span>Zherong Pan</span>, <span>Breannan Smith</span>, <span>Takaaki Shiratori</span>, <span>Dinesh Manocha</span>
+  <span>Qingyang Tan</span>, <span>Yi Zhou</span>, <span>Tuanfeng Wang</span>, <span>Duygu Ceylan</span>, <span>Xin Sun</span>, <span>Dinesh Manocha</span>
 
   </div>
   
@@ -490,12 +490,20 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/files/collision_active_learning.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/refu.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/aldehydecho/ReFU" target="_blank" rel="noopener">
+  Code
+</a>
 
 
 
@@ -518,8 +526,8 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px;">
   <div style="position: relative">
-    <img src="/publication/collision_active_learning/featured.png" alt="" class="featured-image">
-    <span class="article-header-caption">Pipeline of our method.</span>
+    <img src="/publication/refu/featured.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">Comparison with or without our proposed layer ReFU</span>
   </div>
 </div>
 
@@ -529,7 +537,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">We present a robust learning algorithm to detect and handle collisions in 3D deforming meshes. We first train a neural network to detect collisions and then use a numerical optimization algorithm to resolve penetrations guided by the network. Our learned collision handler can resolve collisions for unseen, high-dimensional meshes with thousands of vertices. To obtain stable network performance in such large and unseen spaces, we apply active learning by progressively inserting new collision data based on the network inferences. We automatically label these new data using an analytical collision detector and progressively fine-tune our detection networks. We evaluate our method for collision handling of complex, 3D meshes coming from several datasets with different shapes and topologies, including datasets corresponding to dressed and undressed human poses, cloth simulations, and human hand poses acquired using multi-view capture systems.</p>
+    <p class="pub-abstract">Despite recent success, deep learning-based methods for predicting 3D garment deformation under body motion suffer from interpenetration problems between the garment and the body. To address this problem, we propose a novel collision handling neural network layer called Repulsive Force Unit (ReFU). Based on the signed distance function (SDF) of the underlying body and the current garment vertex positions, ReFU predicts the per-vertex offsets that push any interpenetrating vertex to a collision-free configuration while preserving the fine geometric details. We show that ReFU is differentiable with trainable parameters and can be integrated into different network backbones that predict 3D garment deformations. Our experiments show that ReFU significantly reduces the number of collisions between the body and the garment and better preserves geometric details compared to prior methods based on collision loss or post-processing optimization.</p>
     
 
     
@@ -559,7 +567,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Thirty-ninth International Conference on Machine Learning</div>
+          <div class="col-12 col-md-9">European Conference on Computer Vision</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -579,7 +587,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/mesh-embedding/">Mesh Embedding</a>
+  <a class="badge badge-light" href="/tags/cloth-simulation/">Cloth Simulation</a>
   
   <a class="badge badge-light" href="/tags/collision-detection/">Collision Detection</a>
   
@@ -598,7 +606,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/collision_active_learning/&amp;text=N-Penetrate:%20Active%20Learning%20of%20Neural%20Collision%20Handler%20for%20Complex%203D%20Mesh%20Deformations" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/refu/&amp;text=A%20Repulsive%20Force%20Unit%20for%20Garment%20Collision%20Handling%20in%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -611,7 +619,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/collision_active_learning/&amp;t=N-Penetrate:%20Active%20Learning%20of%20Neural%20Collision%20Handler%20for%20Complex%203D%20Mesh%20Deformations" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/refu/&amp;t=A%20Repulsive%20Force%20Unit%20for%20Garment%20Collision%20Handling%20in%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -624,7 +632,7 @@
       
       
       <li>
-        <a href="mailto:?subject=N-Penetrate:%20Active%20Learning%20of%20Neural%20Collision%20Handler%20for%20Complex%203D%20Mesh%20Deformations&amp;body=/publication/collision_active_learning/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=A%20Repulsive%20Force%20Unit%20for%20Garment%20Collision%20Handling%20in%20Neural%20Networks&amp;body=/publication/refu/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -637,7 +645,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/collision_active_learning/&amp;title=N-Penetrate:%20Active%20Learning%20of%20Neural%20Collision%20Handler%20for%20Complex%203D%20Mesh%20Deformations" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/refu/&amp;title=A%20Repulsive%20Force%20Unit%20for%20Garment%20Collision%20Handling%20in%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -650,7 +658,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/collision_active_learning/&amp;title=N-Penetrate:%20Active%20Learning%20of%20Neural%20Collision%20Handler%20for%20Complex%203D%20Mesh%20Deformations" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/refu/&amp;title=A%20Repulsive%20Force%20Unit%20for%20Garment%20Collision%20Handling%20in%20Neural%20Networks" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -764,15 +772,13 @@
     <h3>Related</h3>
     <ul>
       
+      <li><a href="/publication/collision_active_learning/">N-Penetrate: Active Learning of Neural Collision Handler for Complex 3D Mesh Deformations</a></li>
+      
       <li><a href="/publication/collision_prediction/">LCollision: Fast Generation of Collision-Free Human Poses using Learned Non-Penetration Constraints</a></li>
-      
-      <li><a href="/publication/multiscale/">Multiscale Mesh Deformation Component Analysis with Attention-based Autoencoders</a></li>
-      
-      <li><a href="/publication/vaesparse/">Variational Autoencoders for Localized Mesh Deformation Component Analysis</a></li>
       
       <li><a href="/publication/cloth_embedding/">Realtime Simulation of Thin-Shell Deformable Materials using CNN-Based Mesh Embedding</a></li>
       
-      <li><a href="/publication/vae/">Variational Autoencoders for Deforming 3D Mesh Models</a></li>
+      <li><a href="/project/828x/">Nonlinear Subspace Cloth Simulation</a></li>
       
     </ul>
   </div>

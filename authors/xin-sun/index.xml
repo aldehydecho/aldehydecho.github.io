@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xin Sun | QINGYANG TAN</title>
+    <link>/authors/xin-sun/</link>
+      <atom:link href="/authors/xin-sun/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xin Sun</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Qingyang Tan</copyright><lastBuildDate>Thu, 28 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Xin Sun</title>
+      <link>/authors/xin-sun/</link>
+    </image>
+    
+    <item>
+      <title>A Repulsive Force Unit for Garment Collision Handling in Neural Networks</title>
+      <link>/publication/refu/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/refu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
